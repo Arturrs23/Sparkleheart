@@ -1,0 +1,407 @@
+/*nav background ripped*/
+
+.navigation {
+    width: 100%;
+    height: 120px;
+    left: 0%;
+    top: 0%;
+    z-index: 1;
+    background-image: url(/images/Union2.svg);
+    position: absolute;
+    background: transparent;
+}
+
+.container-base {
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+
+
+.yellow-container {
+    background-image: url(/images/Rectangle\ 44.png);
+    background-size: cover;
+    background-position: left 80% center;
+    position: relative;
+    width: 100%;
+    height: 727px;
+    margin-top: 90px;
+}
+
+.yellow-container .ripped-ontop {
+    width: 100%;
+    margin-top: -8px;
+}
+
+.yellow-font {
+    width: 100%;
+    height: 827px;
+    position: absolute;
+}
+
+/* white text on img */
+
+.paragraph-text {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #ffffff;
+}
+
+/* container for text */
+
+.paragraph-container {
+    width: 0%;
+    margin: 0 auto;
+    padding-top: 150px;
+    padding-bottom: 0px;
+    position: relative;
+}
+
+.error-title {
+    width: 394px;
+    height: 105px;
+    margin-left: -70px;
+    margin-top: -20px;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 96px;
+    line-height: 142px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.error-subtext {
+    width: 600px;
+    height: 34px;
+    margin-left: -85px;
+    margin-top: 30px;
+    white-space: nowrap;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #2F4858;
+}
+
+.error-text-small {
+    width: 606px;
+    height: 23px;
+    margin-left: -270px;
+    margin-top: 30px!important;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #2F4858;
+}
+
+#start-button {
+    width: 233px;
+    height: 50px;
+    margin-left: -100px;
+    margin-top: 50px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFA800;
+    background-color: #ffffff;
+    border-radius: 100px;
+    padding-left: 55px;
+}
+
+/* footer */
+
+.black-footer {
+    margin-top: -40px;
+    height: 376px;
+    width: 100%;
+    background-image: url(/images/-dark.svg);
+    position: absolute;
+    overflow: hidden;
+}
+@media only screen and (min-device-width: 2560px) {
+/* footer */
+
+.black-footer {
+    margin-top: -30px;
+    height: 376px;
+    width: 100%;
+    background-image: url(/images/-dark.svg);
+    position: absolute;
+    overflow: hidden;
+}
+.yellow-container {
+    background-image: url(/images/Rectangle\ 44.png);
+    background-size: cover;
+    background-position: left 80% center;
+    position: relative;
+    width: 100%;
+    height: 1100px;
+    margin-top: 90px;
+}
+
+
+
+}
+ /* iPad PORTRAIT style here */      
+ @media only screen
+ and (min-device-width : 768px)
+ and (max-device-width : 1024px)
+ and (orientation:portrait) 
+{
+  /* modal menu */
+  #RU {
+    font-size: 24px;
+    margin-top: 100px;
+    margin-left: -10px;
+}
+#LV {
+    font-size: 24px;
+    margin-top: 100px;
+    margin-left: 155px;
+}
+#EN {
+    font-size: 24px;
+    margin-top: 100px;
+    margin-left: 180px;
+}
+#story {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    white-space: nowrap;
+    margin-top: 340px;
+    margin-left: 200px!important;
+}
+#dream-a {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    white-space: nowrap;
+    margin-top: 300px;
+    margin-left: 200px!important;
+}
+#bank-d {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    white-space: nowrap;
+    margin-top: 260px;
+    margin-left: 200px!important;
+}
+#user {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    white-space: nowrap;
+    margin-top: 220px;
+    margin-left: 200px!important;
+}
+#dream {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    white-space: nowrap;
+    margin-top: 180px;
+    margin-left: 200px!important;
+}
+#idea {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    white-space: nowrap;
+    margin-top: 140px;
+    margin-left: 215px!important;
+}
+/*close button*/
+.btn-default {
+    position: absolute;
+    width: 14.8px;
+    right: 95px;
+    top: 20px;
+    transform: scale(3.9);
+}
+#small-logo-modal {
+    position: absolute;
+    width: 128px;
+    height: 118px;
+    top: -10px;
+    left: 80px;
+}
+}
+@media only screen and (max-width: 320px) and (min-width: 280px) and (orientation: portrait) 
+{
+    #story {
+        margin-left: -10px!important;
+    }
+    #dream {
+        margin-left: -4px!important;
+    }
+    #dream-a {
+        margin-left: -5px!important;
+    }
+    #RU {
+        margin-left: -6px;
+    }
+    #LV {
+        margin-left: 0px!important;
+    }
+    #EN {
+        margin-left: -40px!important;
+    }
+    /*close button*/
+    .btn-default {
+        position: absolute;
+        width: 14.8px;
+        right: 30px;
+        top: 5px;
+        transform: scale(2);
+    }
+    #small-logo-modal {
+        position: absolute;
+        width: 78px;
+        height: 72px;
+        top: -10px;
+        left: 20px;
+    }
+    .navbar-brand {
+        max-width: 78px;
+        min-height: 72px;
+        top: -40px;
+        left: 20px;
+    }
+
+
+}
+/*Phones M*/
+@media only screen and (max-width: 375px) and (min-width: 321px) and (orientation: portrait){
+#idea{
+    margin-left: 30px;
+}
+    #story {
+        margin-left: 20px!important;
+    }
+    #user{
+        margin-left: 20px;
+    }
+    #bank-d{
+        margin-left: 20px;
+    }
+    #dream {
+        margin-left: 20px!important;
+    }
+    #dream-a {
+        margin-left: 20px!important;
+    }
+    #RU {
+        margin-left: -12px;
+    }
+    #LV {
+        margin-left: 30px!important;
+    }
+    #EN {
+        margin-left: -10px!important;
+    }
+    /*close button*/
+    .btn-default {
+        position: absolute;
+        width: 14.8px;
+        right: 55px;
+        top: 5px;
+        transform: scale(2);
+    }
+    #small-logo-modal {
+        position: absolute;
+        width: 78px;
+        height: 72px;
+        top: -10px;
+        left: 50px;
+    }
+    .navbar-brand {
+        max-width: 78px;
+        min-height: 72px;
+        top: -40px;
+        left: 20px;
+    }
+}
+/*Phones L*/
+@media only screen and (max-width: 425px) and (min-width: 376px) and (orientation: portrait) {
+    #idea{
+        margin-left: 50px;
+    }
+        #story {
+            margin-left: 40px!important;
+        }
+        #user{
+            margin-left: 50px;
+        }
+        #bank-d{
+            margin-left: 50px;
+        }
+        #dream {
+            margin-left: 50px!important;
+        }
+        #dream-a {
+            margin-left: 50px!important;
+        }
+        #RU {
+            margin-left: -20px;
+        }
+        #LV {
+            margin-left:50px!important;
+        }
+        #EN {
+            margin-left: 15px!important;
+        }
+        /*close button*/
+        .btn-default {
+            position: absolute;
+            width: 14.8px;
+            right: 85px;
+            top: 5px;
+            transform: scale(2);
+        }
+        #small-logo-modal {
+            position: absolute;
+            width: 78px;
+            height: 72px;
+            top: -10px;
+            left: 70px;
+        }
+        .navbar-brand {
+            max-width: 78px;
+            min-height: 72px;
+            top: -40px;
+            left: 20px;
+        }
+
+
+
+
+
+}

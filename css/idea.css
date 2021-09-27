@@ -1,0 +1,1813 @@
+/* IDEA index page */
+
+/*fonts*/
+
+@font-face {
+    font-family: Montserrat;
+    src: url(/fonts/Montserrat-Regular.otf);
+}
+
+@font-face {
+    font-family: Oswald;
+    src: url(/fonts/Oswald-Regular.ttf);
+}
+
+.container-base {
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* idea container */
+
+.idea-container {
+    width: 100%;
+    height: 260px;
+    margin-top: 205px;
+}
+
+#idea-title {
+    max-width: 182px;
+    max-height: 70px;
+    margin: 0 auto;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 71px;
+    text-align: center;
+    display: block;
+    align-items: center;
+    color: #2f4858;
+}
+
+#idea-paragraph {
+    font-family: Montserrat;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    display: block;
+    max-width: 606px;
+    max-height: 112px;
+    margin: 0 auto;
+    color: #2f4858;
+    margin-top: 60px;
+}
+
+/* idea image */
+
+/* picture-container */
+
+.image-container {
+    background-image: url(/images/Juris.svg);
+    background-size: cover;
+    background-position: left 80% center;
+    z-index: -1;
+    position: relative;
+    width: 100%;
+    margin-top: 150px;
+}
+
+.overlay-shadow {
+    width: 100%;
+    height: 700px;
+    position: absolute;
+    bottom: 0;
+}
+
+/* white text on img */
+
+.paragraph-text {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #ffffff;
+}
+
+/* container for text */
+
+.paragraph-container {
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 460px;
+    padding-bottom: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+/* ripped bar */
+
+.ripped-bottom {
+    z-index: 1;
+    position: relative;
+    bottom: -2px;
+    width: 100%;
+}
+
+.image-container .ripped-top {
+    width: 100%;
+    margin-top: -8px;
+}
+
+/* carousel */
+
+.carousel-container {
+    margin-top: 150px;
+    width: 100%;
+    height: 300px;
+}
+
+.carousel-item.active, .carousel-item-next, .carousel-item-prev {
+    display: block;
+}
+
+.carousel-control-prev-icon {
+    background-image: url(/images/Poga\ _.svg);
+    margin-top: 320px !important;
+    left: 221% !important;
+    position: absolute;
+}
+
+.carousel-control-next-icon {
+    transform: rotate(-180deg);
+    background-image: url(/images/Poga\ _.svg);
+    margin-top: 320px !important;
+    right: 414% !important;
+    position: absolute;
+}
+
+.carousel-control-prev-icon:hover, .carousel-control-next-icon:hover {
+    color: #2f4858 !important;
+}
+
+/* carousel text */
+
+#title-name {
+    width: 100%;
+    height: 29px;
+    margin-top: -20px;
+    margin-left: -14%;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #2f4858;
+}
+
+#title-description {
+    max-width: 500px;
+    height: 25px;
+    margin-left: 30.4%;
+    font-weight: normal;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 15px;
+    align-items: right;
+    color: #2f4858;
+}
+
+#description {
+    max-width: 602px;
+    height: 119px;
+    margin-left: 33%;
+    font-weight: normal;
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    margin-top: 30px;
+    text-align: left;
+    color: #2f4858;
+}
+
+/* footer */
+
+.black-footer {
+    margin-top: 150px;
+    height: 376px;
+    width: 100%;
+    background-image: url(/images/-dark.svg);
+}
+
+/*hamburger*/
+
+.navbar-toggler {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    background-color: transparent !important;
+    border: none;
+}
+
+.bg-light {
+    background-color: transparent !important;
+}
+
+/*nav-logo*/
+
+.navbar-brand {
+    position: absolute;
+    width: 159px;
+    height: 146px;
+    left: 62px;
+    top: -15px;
+}
+
+#ideja {
+    right: 1015px;
+}
+
+#piesaki {
+    right: 850px;
+}
+
+#uzn {
+    right: 703px;
+}
+
+#lat {
+    top: 7px;
+    right: 80px;
+}
+
+#number {
+    font-weight: 600 !important;
+    top: 27px;
+    right: 142px;
+}
+
+#sapnis {
+    right: 357px;
+}
+
+#banka {
+    right: 545px;
+}
+
+/*nav background ripped*/
+
+.navigation {
+    width: 100%;
+    height: 120px;
+    left: 0%;
+    top: 0%;
+    z-index: 1;
+    background-image: url(/images/Union2.svg);
+    position: absolute;
+    background: transparent;
+}
+
+/*links*/
+
+.navbar .nav-item a {
+    color: #060606 !important;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 30px;
+    white-space: nowrap;
+    position: absolute;
+}
+
+.navbar .nav-item a:hover {
+    text-decoration: underline;
+    text-decoration-color: #ffa800;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 3px;
+}
+
+/*Modal*/
+
+.navbar-toggle {
+    float: left !important;
+    margin-left: 15px;
+    margin-right: 0;
+}
+
+/*modal body fullscreen*/
+
+.modal {
+    padding: 0 !important;
+}
+
+.modal .modal-dialog {
+    width: 100%;
+    max-width: none;
+    height: 100%;
+    margin: 0;
+}
+
+.modal .modal-content {
+    height: 100%;
+    border: 0;
+    border-radius: 0;
+}
+
+.modal .modal-body {
+    overflow-y: auto;
+}
+
+/*sparkle logo*/
+
+/*removing underlines*/
+
+.modal-header {
+    border-bottom: 0 none;
+}
+
+.modal-footer {
+    border-top: 0 none;
+}
+
+/* modal overlay*/
+
+.modal-backdrop {
+    background-color: transparent;
+    z-index: -1;
+}
+
+/*modal list*/
+
+ul {
+    list-style-type: none;
+}
+
+.modal-nav-body a:hover {
+    text-decoration: underline;
+    text-decoration-color: #ffa800;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 3px;
+    font-weight: 900 !important;
+    cursor: pointer;
+}
+
+#LV:hover, #RU:hover, #EN:hover {
+    font-weight: 900 !important;
+}
+
+#idea {
+    position: absolute;
+    width: 40px;
+    height: 24px;
+    left: 180px;
+    top: 156px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+}
+
+#dream {
+    position: absolute;
+    width: 40px;
+    height: 24px;
+    left: 145px;
+    top: 220px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+    white-space: nowrap;
+}
+
+#user {
+    position: absolute;
+    width: 40px;
+    height: 24px;
+    left: 145px;
+    top: 284px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+}
+
+#bank-d {
+    position: absolute;
+    width: 40px;
+    height: 24px;
+    left: 145px;
+    top: 348px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+    white-space: nowrap;
+}
+
+#dream-a {
+    position: absolute;
+    width: 40px;
+    height: 24px;
+    left: 135px;
+    top: 412px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+    white-space: nowrap;
+}
+
+#story {
+    position: absolute;
+    width: 200px;
+    height: 24px;
+    left: 110px;
+    top: 476px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+}
+
+#LV {
+    position: absolute;
+    width: 40px;
+    height: 24px;
+    left: 80px;
+    top: 92px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+}
+
+#EN {
+    position: absolute;
+    width: 40px;
+    height: 24px;
+    left: 180px;
+    top: 92px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+}
+
+#RU {
+    position: absolute;
+    width: 40px;
+    height: 24px;
+    left: 65%;
+    top: 92px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+}
+
+#LV:hover, #EN:hover, #RU:hover {
+    text-decoration: underline;
+    text-decoration-color: #ffa800;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 3px;
+}
+
+#scroll-button {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    margin-left: 65%;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #ffa800;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+#scroll-button:hover {
+    background-color: #ffda16;
+}
+
+#scroll-button:active {
+    background: #ff8a00;
+}
+
+/* dark footer */
+
+.dark-footer {
+    margin-top: 150px;
+    height: 376px;
+    width: 100%;
+    background-image: url(/images/-dark.svg);
+}
+
+#gold-logo {
+    position: absolute;
+    margin-left: 4.54%;
+    margin-right: 82.14%;
+    margin-top: 70px;
+}
+
+#rights {
+    height: 20px;
+    width: 9.5%;
+    position: absolute;
+    margin-left: 4.54%;
+    margin-right: 82.14%;
+    margin-top: 270px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #ffffff;
+}
+
+.menu-list {
+    position: relative;
+    width: 179px;
+    height: 196px;
+    color: #e7e7e7;
+    margin-left: 20%;
+    top: 70px;
+}
+
+#text1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 21px;
+}
+
+#text2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 21px;
+}
+
+#text3 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 21px;
+}
+
+#text4 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 21px;
+}
+
+#text5 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 21px;
+}
+
+#text6 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 21px;
+}
+
+/*sparkle heart*/
+
+.menu {
+    width: 100%;
+    height: 88px;
+    position: relative;
+    top: -120px;
+    margin-left: 45%;
+}
+
+#sparkle {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #ffffff;
+}
+
+#registration {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #ffffff;
+    margin-top: 22px;
+}
+
+#bank {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+#number {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    margin-top: 9px;
+}
+
+/*person*/
+
+.person {
+    width: 100%;
+    height: 85px;
+    position: relative;
+    top: -200px;
+    margin-left: -120px;
+}
+
+#person-name {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: right;
+    color: #ffffff;
+}
+
+#person-email {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+    color: #ffffff;
+    margin-top: 22px;
+}
+
+#mobile-number {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+    color: #ffffff;
+    margin-top: 12px;
+}
+
+#adress {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+/*socials*/
+
+.social-icons {
+    width: 100%;
+    height: 85px;
+    position: relative;
+    top: -130px;
+    margin-left: 90%;
+}
+
+#facebook {
+    position: absolute;
+    left: 0%;
+    right: 9.3%;
+    top: 0%;
+    bottom: 22.61%;
+    content: url(/images/fb.svg);
+}
+
+#instagram {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 22.61%;
+    content: url(/images/inst.svg);
+    margin-left: 29px;
+}
+
+.privacy {
+    margin-left: -60px;
+}
+
+#privacy {
+    height: 20px;
+    width: 9.5%;
+    padding-top: 50px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #ffffff;
+}
+
+#text1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 21px;
+    color: #e7e7e7;
+}
+
+#text2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 21px;
+    color: #e7e7e7;
+}
+
+#text3 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 21px;
+    color: #e7e7e7;
+}
+
+#text4 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 21px;
+    color: #e7e7e7;
+}
+
+#text5 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 21px;
+    color: #e7e7e7;
+}
+
+#text6 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 21px;
+    color: #e7e7e7;
+}
+
+#req {
+    visibility: hidden;
+}
+
+/* phone S */
+
+@media only screen and (max-width: 320px) and (min-width: 280px) and (orientation: portrait) {
+    #idea-paragraph {
+        width: 280px;
+        height: 124px;
+        left: 20px;
+        margin-top: 13px!important;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 15px;
+        text-align: center;
+        color: #2F4858;
+    }
+    /*close button modal*/
+    .btn-default {
+        position: absolute;
+        width: 14.8px;
+        right: 30px;
+        top: 5px;
+        transform: scale(2);
+    }
+    /* logo modal mobile */
+    #small-logo-modal {
+        position: absolute;
+        width: 76.95px;
+        height: 71.03px;
+        ;
+        top: -5px;
+        left: 20px;
+    }
+    #RU {
+        margin-left: -10px;
+    }
+    #story {
+        margin-left: -50px;
+    }
+    .idea-container {
+        margin-top: 100px;
+    }
+    /* picture-container */
+    .image-container {
+        background-image: url(/images/Juris.svg);
+        background-size: cover;
+        background-position: left 65% center;
+        z-index: -1;
+        position: relative;
+        width: 100%;
+        height: 426px;
+        margin-top: 35px;
+    }
+    .paragraph-text {
+        width: 320px;
+        height: 168px;
+        font-family: Oswald;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-top: -230px;
+        margin-left: -60px;
+    }
+    /*ripped bar */
+    .ripped-bottom {
+        z-index: 1;
+        position: relative;
+        margin-top: -200px!important;
+        width: 100%;
+    }
+    .image-container .ripped-top {
+        width: 100%;
+        margin-top: -15px;
+    }
+    /* footer */
+    .black-footer {
+        margin-top: 50px;
+        height: 483px;
+        width: 100%;
+        background-image: url(/images/Subtractblack.svg);
+        padding-bottom: 440px;
+    }
+    .carousel-control-prev-icon {
+        background-image: url(/images/Poga\ _.svg);
+        margin-top: 190px !important;
+        left: 21% !important;
+        position: absolute;
+    }
+    .carousel-control-next-icon {
+        transform: rotate(-180deg);
+        background-image: url(/images/Poga\ _.svg);
+        margin-top: 190px !important;
+        right: 453% !important;
+        position: absolute;
+    }
+    #title-name {
+        width: 100%;
+        height: 29px;
+        margin-top: -20px;
+        margin-left: -35%;
+        font-family: Oswald;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 36px;
+        color: #2f4858;
+    }
+    #title-description {
+        width: 280px;
+        height: 25px;
+        margin-left: -2%;
+        font-weight: normal;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 22px;
+        margin-top: 15px;
+        align-items: right;
+        color: #2f4858;
+    }
+    #description {
+        max-width: 602px;
+        height: 119px;
+        margin-left: -1%;
+        font-weight: normal;
+        font-family: Montserrat;
+        font-style: italic;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 15px;
+        margin-top: 30px;
+        text-align: left;
+        color: #2f4858;
+    }
+    #rights {
+        margin-top: 390px !important;
+        font-size: 11px;
+    }
+    #privacy {
+        height: 20px;
+        width: 9.5%;
+        padding-top: 50px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 11px;
+        line-height: 17px;
+        color: #ffffff;
+        top: -1200px;
+    }
+    .privacy {
+        margin-top: -14px;
+    }
+    .modal a {
+        margin-left: -40px;
+        list-style-type: none;
+    }
+    #facebook {
+        width: 12.5;
+        height: 25px;
+        margin-left: -12%;
+        margin-top: -30px!important;
+    }
+    #instagram {
+        width: 12.5;
+        height: 25px;
+        margin-left: -6%;
+        margin-top: -30px!important;
+    }
+    #person-email {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+        top: 115px;
+        left: 140px!important;
+        position: absolute;
+    }
+    #adress {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+        left: 140px!important;
+        top: 180px;
+        position: absolute;
+        white-space: nowrap;
+    }
+    #mobile-number {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+        position: absolute;
+        top: 150px;
+        left: 140px!important;
+    }
+}
+
+/*Phones M*/
+
+@media only screen and (max-width: 375px) and (min-width: 321px) and (orientation: portrait) {
+    /*close button modal*/
+    .btn-default {
+        position: absolute;
+        width: 14.8px;
+        right: 55px;
+        top: 5px;
+        transform: scale(2);
+    }
+    /* logo modal mobile */
+    #small-logo-modal {
+        position: absolute;
+        width: 76.95px;
+        height: 71.03px;;
+        top: -5px;
+        left: 50px;
+    }
+    #RU {
+        margin-left: -15px;
+    }
+    #story {
+        margin-left: -50px;
+    }
+    #EN {
+        margin-left: -10px!important;
+    }
+    #LV {
+        margin-left: 30px!important;
+    }
+    #idea-paragraph {
+        width: 280px;
+        height: 124px;
+    }
+    /* picture-container */
+    .image-container {
+        background-image: url(/images/Juris.svg);
+        background-size: cover;
+        background-position: left 65% center;
+        z-index: -1;
+        position: relative;
+        width: 100%;
+        margin-top: 150px;
+    }
+    .paragraph-text {
+        font-family: Oswald;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 36px;
+        text-align: left;
+        color: #ffffff;
+        width: 320px;
+        height: 128px;
+        margin-top: -100px;
+        margin-left: -50px;
+    }
+    /*ripped bar */
+    .ripped-bottom {
+        z-index: 1;
+        position: relative;
+        bottom: -5px;
+        width: 100%;
+    }
+    .image-container .ripped-top {
+        width: 100%;
+        margin-top: -15px;
+    }
+    /* footer */
+    /* footer */
+    .black-footer {
+        margin-top: 50px;
+        height: 483px;
+        width: 100%;
+        background-image: url(/images/Subtractblack.svg);
+        padding-bottom: 440px;
+    }
+    .carousel-control-prev-icon {
+        background-image: url(/images/Poga\ _.svg);
+        margin-top: 320px !important;
+        left: 20% !important;
+        position: absolute;
+    }
+    .carousel-control-next-icon {
+        transform: rotate(-180deg);
+        background-image: url(/images/Poga\ _.svg);
+        margin-top: 320px !important;
+        right: 444% !important;
+        position: absolute;
+    }
+    #title-name {
+        width: 100%;
+        height: 29px;
+        margin-top: -20px;
+        margin-left: -35%;
+        font-family: Oswald;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 36px;
+        color: #2f4858;
+    }
+    #title-description {
+        width: 320px;
+        height: 25px;
+        margin-left: -2%;
+        font-weight: normal;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 22px;
+        margin-top: 15px;
+        align-items: right;
+        color: #2f4858;
+    }
+    #description {
+        max-width: 602px;
+        height: 119px;
+        margin-left: -1%;
+        font-weight: normal;
+        font-family: Montserrat;
+        font-style: italic;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 15px;
+        margin-top: 30px;
+        text-align: left;
+        color: #2f4858;
+    }
+    #rights {
+        margin-top: 390px !important;
+        font-size: 11px;
+    }
+    #privacy {
+        height: 20px;
+        width: 9.5%;
+        padding-top: 50px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 11px;
+        line-height: 17px;
+        color: #ffffff;
+        top: -1200px;
+    }
+    .privacy {
+        margin-top: -14px;
+    }
+    .modal a {
+        margin-left: -40px;
+        list-style-type: none;
+    }
+    #facebook {
+        width: 12.5;
+        height: 25px;
+        margin-left: -12%;
+        margin-top: -30px!important;
+    }
+    #instagram {
+        width: 12.5;
+        height: 25px;
+        margin-left: -6%;
+        margin-top: -30px!important;
+    }
+    #person-email {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+        top: 115px;
+        left: 140px!important;
+        position: absolute;
+    }
+    #adress {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+        left: 140px!important;
+        top: 180px;
+        position: absolute;
+        white-space: nowrap;
+    }
+    #mobile-number {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+        position: absolute;
+        top: 150px;
+        left: 140px!important;
+    }
+    .modal a {
+        margin-left: -20px!important;
+        list-style-type: none;
+    }
+}
+
+/*Phones L*/
+
+@media only screen and (max-width: 600px) and (min-width: 376px) and (orientation: portrait) {
+    /*close button modal*/
+    .btn-default {
+        position: absolute;
+        width: 14.8px;
+        right: 85px;
+        top: 5px;
+        transform: scale(2);
+    }
+    /* logo modal mobile */
+    #small-logo-modal {
+        position: absolute;
+        width: 76.95px;
+        height: 71.03px;
+        
+        top: -5px;
+        left: 70px;
+    }
+    #RU {
+        margin-left: -20px;
+    }
+    #story {
+        margin-left: -50px;
+    }
+    #EN {
+        margin-left: 10px!important;
+    }
+    #LV {
+        margin-left: 50px!important;
+    }
+    #idea-paragraph {
+        width: 280px;
+        height: 124px;
+    }
+    /* picture-container */
+    .image-container {
+        background-image: url(/images/Juris.svg);
+        background-size: cover;
+        background-position: left 65% center;
+        z-index: -1;
+        position: relative;
+        width: 100%;
+        margin-top: 150px;
+    }
+    .paragraph-text {
+        font-family: Oswald;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 36px;
+        text-align: left;
+        color: #ffffff;
+        width: 320px;
+        height: 128px;
+        margin-top: -100px;
+        margin-left: -50px;
+    }
+    /*ripped bar */
+    .ripped-bottom {
+        z-index: 1;
+        position: relative;
+        bottom: -5px;
+        width: 100%;
+    }
+    .image-container .ripped-top {
+        width: 100%;
+        margin-top: -15px;
+    }
+    /* footer */
+    .black-footer {
+        margin-top: 50px;
+        height: 483px;
+        width: 100%;
+        background-image: url(/images/Subtractblack.svg);
+        padding-bottom: 440px;
+    }
+    .carousel-control-prev-icon {
+        background-image: url(/images/Poga\ _.svg);
+        margin-top: 320px !important;
+        left: 20% !important;
+        position: absolute;
+    }
+    .carousel-control-next-icon {
+        transform: rotate(-180deg);
+        background-image: url(/images/Poga\ _.svg);
+        margin-top: 320px !important;
+        right: 444% !important;
+        position: absolute;
+    }
+    #title-name {
+        width: 100%;
+        height: 29px;
+        margin-top: -20px;
+        margin-left: -35%;
+        font-family: Oswald;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 36px;
+        color: #2f4858;
+    }
+    #title-description {
+        width: 320px;
+        height: 25px;
+        margin-left: -2%;
+        font-weight: normal;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 22px;
+        margin-top: 15px;
+        align-items: right;
+        color: #2f4858;
+    }
+    #description {
+        max-width: 602px;
+        height: 119px;
+        margin-left: -1%;
+        font-weight: normal;
+        font-family: Montserrat;
+        font-style: italic;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 15px;
+        margin-top: 30px;
+        text-align: left;
+        color: #2f4858;
+    }
+    #rights {
+        margin-top: 390px !important;
+        font-size: 11px;
+    }
+    #privacy {
+        height: 20px;
+        width: 9.5%;
+        padding-top: 50px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 11px;
+        line-height: 17px;
+        color: #ffffff;
+        top: -1200px;
+    }
+    .privacy {
+        margin-top: -14px;
+    }
+    .modal a {
+        margin-left: -40px;
+        list-style-type: none;
+    }
+    #facebook {
+        width: 12.5;
+        height: 25px;
+        margin-left: -12%;
+        margin-top: -30px!important;
+    }
+    #instagram {
+        width: 12.5;
+        height: 25px;
+        margin-left: -6%;
+        margin-top: -30px!important;
+    }
+    #person-email {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+        top: 115px;
+        left: 140px!important;
+        position: absolute;
+    }
+    #adress {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+        left: 140px!important;
+        top: 180px;
+        position: absolute;
+        white-space: nowrap;
+    }
+    #mobile-number {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+        position: absolute;
+        top: 150px;
+        left: 140px!important;
+    }
+    .modal a {
+        margin-left: -20px!important;
+        list-style-type: none;
+    }
+    .modal a {
+        margin-left: 0px!important;
+        list-style-type: none;
+    }
+}
+
+/* iPad PORTRAIT style here */
+
+@media only screen and (min-device-width: 601px) and (max-device-width: 1024px) and (orientation: portrait) {
+    .carousel-control-next-icon {
+        transform: rotate(-180deg);
+        background-image: url(/images/Poga\ _.svg);
+        margin-top: 320px !important;
+        right: 380% !important;
+        position: absolute;
+    }
+    .modal a {
+        margin-left: 200px;
+        list-style-type: none;
+    }
+}
+
+/* iPad LANDSCAPE style here */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    .carousel-control-next-icon {
+        transform: rotate(-180deg);
+        background-image: url(/images/Poga\ _.svg);
+        margin-top: 320px !important;
+        right: 380% !important;
+        position: absolute;
+    }
+}
+
+/* 4k */
+
+@media only screen and (min-device-width: 2560px) {
+    #title-description {
+        margin-left: 32%;
+    }
+    #description {
+        margin-left: 33.9%;
+    }
+}
+
+/*Surafce duo portrait*/
+
+@media screen and (min-width: 426px) and (max-width: 600px) and (orientation: portrait) {
+    .modal a {
+        margin-left: 60px!important;
+        list-style-type: none;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+    /* idea container */
+    .idea-container {
+        width: 100%;
+        height: 260px;
+        margin-top: 170px;
+    }
+    #idea-paragraph {
+        font-family: Montserrat;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        display: block;
+        max-width: 606px;
+        max-height: 112px;
+        margin: 0 auto;
+        color: #2f4858;
+        margin-top: 50px;
+    }
+    /* idea image */
+    /* picture-container */
+    .image-container {
+        background-image: url(/images/Juris.svg);
+        background-size: cover;
+        background-position: left 50% center;
+        z-index: -1;
+        position: relative;
+        width: 100%;
+        height: 499px;
+        margin-top: 130px;
+    }
+    .overlay-shadow {
+        width: 100%;
+        height: 700px;
+        position: absolute;
+        bottom: 0;
+    }
+    /* white text on img */
+    .paragraph-text {
+        font-family: Oswald;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+        color: #ffffff;
+    }
+    /* container for text */
+    .paragraph-container {
+        width: 580px;
+        margin: 0 auto;
+        padding-top: 460px;
+        padding-bottom: 20px;
+        position: relative;
+        z-index: 1;
+        margin-top: -220px;
+    }
+    /* carousel */
+    .carousel-container {
+        margin-top: 130px;
+        width: 100%;
+        height: 300px;
+    }
+    .carousel-item.active, .carousel-item-next, .carousel-item-prev {
+        display: block;
+    }
+    .carousel-control-prev-icon {
+        background-image: url(/images/Poga\ _.svg);
+        margin-top: 290px !important;
+        left: 63% !important;
+        position: absolute;
+    }
+    .carousel-control-next-icon {
+        transform: rotate(-180deg);
+        background-image: url(/images/Poga\ _.svg);
+        margin-top: 290px !important;
+        right: 505% !important;
+        position: absolute;
+    }
+    .carousel-control-prev-icon:hover, .carousel-control-next-icon:hover {
+        color: #2f4858 !important;
+    }
+    /* carousel text */
+    #title-name {
+        width: 100%;
+        height: 29px;
+        margin-top: -20px;
+        margin-left: -35%;
+        font-family: Oswald;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 36px;
+        color: #2f4858;
+    }
+    #title-description {
+        max-width: 500px;
+        height: 25px;
+        margin-left: 1%;
+        font-weight: normal;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;
+        margin-top: 15px;
+        align-items: right;
+        color: #2f4858;
+    }
+    #description {
+        max-width: 602px;
+        height: 119px;
+        margin-left: 7%;
+        font-weight: normal;
+        font-family: Montserrat;
+        font-style: italic;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 29px;
+        margin-top: 30px;
+        text-align: left;
+        color: #2f4858;
+    }
+    /* footer */
+    .black-footer {
+        margin-top: 130px;
+        height: 393px;
+        width: 100%;
+        background-image: url(/images/blacksmthn.svg);
+    }
+    #privacy {
+        margin-left: -10%;
+        margin-top: -3%;
+        white-space: nowrap;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .menu {
+        visibility: hidden;
+    }
+    .person {
+        margin-left: -10%;
+        margin-top: 4%;
+    }
+    #person-email {
+        margin-left: 58%;
+    }
+    #mobile-number {
+        margin-left: -45%!important;
+    }
+    #adress {
+        white-space: nowrap;
+        margin-left: 0%!important;
+    }
+    #scroll-button {
+        margin-left: 55%;
+    }
+    #facebook {
+        width: 12.5;
+        height: 25px;
+        margin-left: -9.5%;
+        margin-top: 20px;
+    }
+    #instagram {
+        width: 12.5;
+        height: 25px;
+        margin-left: -3.5%;
+        margin-top: 20px;
+    }
+    #person-name {
+        left: 20%;
+        top: 170%;
+        position: absolute;
+    }
+    #gold-logo {
+        margin-left: 80px;
+        width: 162px;
+        height: 162px;
+    }
+    #req {
+        color: #ffffff;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;
+        visibility: visible;
+        margin-left: 81%;
+        margin-top: 4px;
+    }
+    /*nav background ripped*/
+    .navigation {
+        width: 100%;
+        height: 120px;
+        left: 0%;
+        top: -2%;
+        z-index: 1;
+        position: absolute;
+    }
+    /*nav-logo*/
+    .navbar-brand {
+        position: absolute;
+        width: 128px;
+        height: 118px;
+        left: 80px;
+        top: 10px;
+    }
+    /*hamburger*/
+    .navbar-toggler {
+        position: fixed!important;
+        right: 65px;
+        top: 25px;
+        background-color: transparent !important;
+        border: none;
+    }
+    .menu {
+        visibility: hidden;
+    }
+    .menu-list {
+        visibility: hidden;
+    }
+    #rights {
+        white-space: nowrap!important;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        margin-top: 42%;
+    }
+    /* modal menu */
+    #RU {
+        font-size: 24px;
+        margin-top: 100px;
+        margin-left: -10px;
+    }
+    #LV {
+        font-size: 24px;
+        margin-top: 100px;
+        margin-left: 155px;
+    }
+    #EN {
+        font-size: 24px;
+        margin-top: 100px;
+        margin-left: 180px;
+    }
+    #story {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        white-space: nowrap;
+        margin-top: 340px;
+        margin-left: 155px;
+    }
+    #dream-a {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        white-space: nowrap;
+        margin-top: 300px;
+        margin-left: 155px;
+    }
+    #bank-d {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        white-space: nowrap;
+        margin-top: 260px;
+        margin-left: 160px;
+    }
+    #user {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        white-space: nowrap;
+        margin-top: 220px;
+        margin-left: 160px;
+    }
+    #dream {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        white-space: nowrap;
+        margin-top: 180px;
+        margin-left: 160px;
+    }
+    #idea {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        white-space: nowrap;
+        margin-top: 140px;
+        margin-left: 175px;
+    }
+    /*close button*/
+    .btn-default {
+        position: absolute;
+        width: 14.8px;
+        right: 95px;
+        top: 20px;
+        transform: scale(3.9);
+    }
+    #small-logo-modal {
+        position: absolute;
+        width: 128px;
+        height: 118px;
+        top: -10px;
+        left: 80px;
+    }
+}

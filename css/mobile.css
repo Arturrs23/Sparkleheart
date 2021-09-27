@@ -1,0 +1,1290 @@
+/* Phone portrait */
+
+/* galaxy fold portrait */
+
+@media screen and (min-width: 280px) and (max-width: 281px) and (orientation: portrait) {
+  /* landing page */
+  #Sparkle-text {
+    margin-left: -7%;
+  }
+  #img-5 {
+    margin-left: -370% !important;
+  }
+  #img-3 {
+    margin-top: -130% !important;
+    margin-left: -210% !important;
+  }
+  #img-4 {
+    margin-left: -320% !important;
+  }
+  #RU {
+    left: 70%;
+  }
+  .Contact-container {
+    margin-left: -8%;
+  }
+  .cookies {
+    visibility: hidden;
+  }
+}
+
+/*Surafce duo portrait*/
+
+@media screen and (min-width: 426px) and (max-width: 600px) and (orientation: portrait) {
+  /* landing page */
+  #Sparkle-text {
+    width: 280px;
+    height: 124px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #2f4858;
+  }
+  .menu-list, .menu {
+    visibility: hidden;
+  }
+  .cookies {
+    visibility: hidden;
+  }
+  #rights {
+    margin-top: 290px;
+    white-space: nowrap;
+  }
+  .person {
+    margin-left: -115px;
+  }
+  .social-icons {
+    margin-left: 460px;
+  }
+  #privacy {
+    white-space: nowrap;
+  }
+  #Left-text-2 {
+    width: 30%;
+    padding-left: 28px;
+    position: absolute;
+    margin-top: -70px;
+    margin-left: 180px;
+  }
+  #Right-text-2 {
+    width: 30%;
+    padding-left: 25px;
+    position: absolute;
+    margin-top: 120px;
+    left: 185px;
+  }
+  #Left-text p {
+    white-space: nowrap;
+    width: 10%;
+    margin-top: -180px;
+    margin-left: 50px;
+  }
+  #Right-text p {
+    white-space: nowrap;
+    width: 280px;
+    margin-top: 400px;
+    margin-left: -100px;
+  }
+  #img-1 {
+    width: 93%;
+    margin-left: -12px;
+  }
+  #img-2 {
+    width: 93%;
+  }
+  #img-3 {
+    width: 92%;
+  }
+  #img-4 {
+    width: 81%;
+  }
+  #myBtn {
+    margin-left: -40px;
+  }
+  /*Modal*/
+  .navbar-toggle {
+    float: left !important;
+    margin-left: 15px;
+    margin-right: 0;
+  }
+  /*modal list*/
+  .modal a {
+    margin-left: 95px;
+    list-style-type: none;
+  }
+  .modal-nav-body a:hover {
+    text-decoration: underline;
+    text-decoration-color: #ffa800;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 3px;
+  }
+  .modal-nav-body li:after {
+    font-weight: bolder;
+  }
+  #LV {
+    position: absolute;
+    width: 40px;
+    height: 24px;
+    left: 80px;
+    top: 92px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+  }
+  #EN {
+    position: absolute;
+    width: 40px;
+    height: 24px;
+    left: 240px;
+    top: 92px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+  }
+  #RU {
+    position: absolute;
+    width: 40px;
+    height: 24px;
+    right: 80px;
+    top: 92px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+  }
+}
+
+/*Phone S*/
+
+@media only screen and (max-width: 320px) and (min-width: 280px) and (orientation: portrait) {
+  /* landing page */
+  .navbar-brand {
+    max-width: 78px;
+    min-height: 72px;
+    top: 10px;
+    left: 20px;
+  }
+  .menu-list, .menu {
+    visibility: hidden;
+  }
+  .navigation {
+    width: 100%;
+    height: 110px;
+    left: 0px;
+    top: -50px;
+    z-index: 1;
+  }
+  #myBtn {
+    margin-top: -70px;
+    margin-left: -25%;
+    background: url(/images/Group\ 2.svg);
+    border: none;
+    background-size: 70px;
+    background-repeat: no-repeat;
+  }
+  #myVideo {
+    height: 239px!important;
+  }
+  #Sparkle-text p {
+    width: 280px;
+    height: 124px;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    margin-top: 50px;
+    margin-left: 20px;
+  }
+  .contents {
+    width: 100%;
+  }
+  .picture-container {
+    margin-top: 170px;
+  }
+  /* single imgs */
+  #img-1 {
+    content: url(/images/Zanda_1.svg);
+    width: 168px;
+    height: 183px;
+    margin-left: -12px;
+    margin-top: 100px;
+  }
+  #img-2 {
+    width: 167px;
+    height: 183px;
+    margin-left: -145px;
+    margin-top: 100px;
+    background: url(/images/Sibilla_4.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+    background-size: cover;
+  }
+  #img-3 {
+    width: 136px;
+    height: 82px;
+    margin-left: -613px;
+    margin-top: -340px;
+    background: url(/images/Brinuma_meita-15.svg);
+    background-position: center center;
+    text-align: center;
+    background-size: cover;
+  }
+  #img-4 {
+    width: 136px;
+    height: 85px;
+    margin-left: -913px;
+    margin-top: -172px;
+    background: url(/images/Alina_1\ 1.svg);
+    background-position: center center;
+    text-align: center;
+    background-size: cover;
+  }
+  #img-5 {
+    width: 194px;
+    height: 165px;
+    margin-left: -1083px;
+    margin-top: -253px;
+    background: url(/images/Anda_2\ 1.svg);
+    background-position: center center;
+    text-align: center;
+    background-size: cover;
+  }
+  #ripped-top {
+    width: 100%;
+    margin-top: -67px;
+    content: url(/images/ripped\ 6\ 7.svg);
+  }
+  #ripped-bottom {
+    width: 100%;
+    transform: rotate(-180deg);
+    margin-top: 272px;
+    content: url(/images/ripped\ 6\ 7.svg);
+  }
+  /* buttons */
+  #Left-text {
+    width: 394px;
+    height: 29px;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    margin-top: -30px;
+    margin-left: 60px;
+  }
+  #Left-text-2 {
+    width: 233px;
+    height: 50px;
+    margin-top: 35px;
+  }
+  #Right-text {
+    width: 270px;
+    height: 55px;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    margin-top: 80px;
+    left: 20px;
+  }
+  #Right-text-2 {
+    margin-top: 155px;
+    width: 233px;
+    height: 50px;
+    left: 40px;
+  }
+  /* contact form */
+  .Contact-container {
+    margin-top: 290px;
+  }
+  #Contact {
+    width: 280px;
+    height: 35px;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 20px;
+  }
+  #name {
+    width: 280px;
+    margin-left: 20px;
+    margin-top: 25px;
+  }
+  #email {
+    width: 280px;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  input[type="text"]::placeholder {
+    padding-left: 12px !important;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  #phone, #company {
+    width: 280px;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  #comments {
+    width: 280px;
+    height: 150px;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  #obligatory {
+    margin-left: 20px;
+    font-size: 12px;
+  }
+  #checkbox {
+    margin-top: 0px;
+    margin-left: 20px;
+  }
+  #acknowledge {
+    margin-left: 51px;
+    font-size: 12px;
+    line-height: 15px;
+    margin-top: 0px;
+  }
+  #send {
+    font-size: 18px;
+    line-height: 22px;
+    width: 140px;
+    height: 48px;
+    padding-left: 50px;
+    margin-left: 90px;
+    margin-top: 60px;
+  }
+  /* footer */
+  #Sponsors {
+    width: 160px;
+    height: 33px;
+    left: 80px;
+    margin-top: 83px;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #2f4858;
+  }
+  .Yellow-footer {
+    margin-top: -230px;
+  }
+  /* logos */
+  .column {
+    width: 50%;
+  }
+  #get-logo {
+    margin-top: 180px;
+    margin-left: 20px!important;
+  }
+  #sem-logo {
+    margin-top: 176px;
+    margin-left: 0px;
+  }
+  #city-bee {
+    margin-top: 40px;
+    margin-left: 22px;
+  }
+  #linearis {
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 48px;
+  }
+  .dark-footer {
+    background-image: url(/images/Union-mobile.svg);
+    margin-top: -138px;
+    width: 320px;
+    height: 483px;
+  }
+  #gold-logo {
+    width: 100px;
+    height: 100px;
+    margin-top: 41px;
+    margin-left: 20px;
+  }
+  #rights {
+    white-space: nowrap;
+    margin-top: 416px;
+  }
+  #privacy {
+    white-space: nowrap;
+    margin-top: 150px;
+    margin-left: -210px;
+  }
+  #facebook {
+    margin-left: -275px;
+    margin-top: -40px;
+    width: 25px;
+    height: 25px;
+  }
+  #instagram {
+    margin-left: -220px;
+    margin-top: -40px;
+    width: 25px;
+    height: 25px;
+  }
+  #req {
+    visibility: visible;
+    top: 215px;
+    left: 4px;
+    margin-left: 140px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    white-space: nowrap;
+    color: #fff;
+    position: absolute;
+  }
+  #adress {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    left: -110px;
+    top: 180px;
+    position: absolute;
+    white-space: nowrap;
+  }
+  #mobile-number {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    position: absolute;
+    top: 150px;
+    left: -115px;
+  }
+  #person-email {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    top: 115px;
+    left: -110px;
+    position: absolute;
+  }
+  #person-name {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    top: 80px;
+    left: 138px;
+    position: absolute;
+  }
+  .modal li {
+    margin-left: -50px;
+    list-style-type: none;
+  }
+  #EN {
+    margin-left: -40px;
+  }
+  #rights, #privacy {
+    font-size: 11px;
+    
+    
+  }
+  #privacy{
+    margin-top: 160px;
+  }
+  .cookies {
+    visibility: hidden;
+  }
+}
+
+/*Phone M*/
+
+@media only screen and (max-width: 375px) and (min-width: 321px) and (orientation: portrait) {
+  /* landing page */
+  .navbar-brand {
+    max-width: 78px;
+    min-height: 72px;
+    top: 0px;
+    left: 20px;
+  }
+  .cookies {
+    visibility: hidden;
+  }
+  .menu-list, .menu {
+    visibility: hidden;
+  }
+  #rights, #privacy {
+    font-size: 11px;
+  }
+  .navigation {
+    width: 100%;
+    height: 110px;
+    left: 0px;
+    top: -50px;
+    z-index: 1;
+  }
+  #myBtn {
+    margin-left: -25%;
+    background: url(/images/Group\ 2.svg);
+    border: none;
+    background-size: 80px;
+    background-repeat: no-repeat;
+  }
+  #Sparkle-text p {
+    width: 280px;
+    height: 124px;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    margin-top: 80px;
+    margin-left: 40px;
+  }
+  .contents {
+    width: 100%;
+    transform: scale(1.1);
+  }
+  /* single imgs */
+  #img-1 {
+    content: url(/images/Zanda_1.svg);
+    width: 170px;
+    height: 183px;
+    margin-top: 37%;
+    transform: scale(1.1);
+  }
+  #img-2 {
+    width: 170px;
+    height: 183px;
+    margin-left: -41%;
+    margin-top: 37%;
+    background: url(/images/Sibilla_4.svg);
+    transform: scale(1.1);
+  }
+  #img-3 {
+    width: 140px;
+    height: 82px;
+    margin-left: -181%;
+    margin-top: -95%;
+    background: url(/images/Brinuma_meita-15.svg);
+    transform: scale(1.1);
+  }
+  #img-4 {
+    transform: scale(1.1);
+    width: 140px;
+    height: 82px;
+    margin-left: -272.7%;
+    margin-top: -44%;
+    background: url(/images/Alina_1\ 1.svg);
+  }
+  #img-5 {
+    width: 194px;
+    height: 179px;
+    margin-top: -71%;
+    margin-left: -323%;
+    background: url(/images/Anda_2\ 1.svg);
+  }
+  #ripped-top {
+    transform: scale(1.1);
+    width: 100%;
+    margin-top: -21%;
+    content: url(/images/ripped\ 6\ 7.svg);
+    z-index: 1;
+  }
+  #ripped-bottom {
+    width: 100%;
+    transform: rotate(-180deg);
+    margin-top: 85.9%;
+    content: url(/images/rippedmob.png);
+    transform: scale(1.3);
+    z-index: 1;
+  }
+  /* buttons */
+  #Left-text {
+    width: 394px;
+    height: 29px;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 90px;
+  }
+  #Left-text-2 {
+    width: 233px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 70px;
+  }
+  #Right-text {
+    width: 270px;
+    height: 55px;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    margin-top: 80px;
+    left: 50px;
+  }
+  #Right-text-2 {
+    margin-top: 165px;
+    width: 233px;
+    height: 50px;
+    left: 70px;
+  }
+  /* contact form */
+  .Contact-container {
+    padding-top: 120px;
+  }
+  #Contact {
+    width: 280px;
+    height: 35px;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 50px;
+  }
+  #name {
+    width: 330px;
+    margin-left: 20px;
+  }
+  #email {
+    width: 330px;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  #phone, #company {
+    width: 330px;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  #comments {
+    width: 330px;
+    height: 150px;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  #obligatory {
+    margin-left: 20px;
+    font-size: 12px;
+  }
+  #checkbox {
+    margin-left: 20px;
+  }
+  #acknowledge {
+    margin-left: 51px;
+    font-size: 12px;
+    line-height: 15px;
+    width: 243px;
+    font-size: 12px;
+  }
+  #send {
+    font-size: 18px;
+    line-height: 22px;
+    width: 140px;
+    height: 48px;
+    padding-left: 50px;
+    margin-left: 120px;
+  }
+  /* footer */
+  /* footer */
+  #Sponsors {
+    width: 160px;
+    height: 33px;
+    left: 80px;
+    margin-top: 83px;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #2f4858;
+  }
+  .Yellow-footer {
+    margin-top: 0px;
+  }
+  /* logos */
+  .column {
+    width: 50%;
+  }
+  #get-logo {
+    margin-top: 180px;
+    margin-left: 20px!important;
+  }
+  #sem-logo {
+    margin-top: 176px;
+    margin-left: 0px;
+  }
+  #city-bee {
+    margin-top: 40px;
+    margin-left: 22px;
+  }
+  #linearis {
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 48px;
+  }
+  .dark-footer {
+    background-image: url(/images/Union-mobile.svg);
+    margin-top: -138px;
+    width: 375px;
+    height: 483px;
+  }
+  #gold-logo {
+    width: 100px;
+    height: 100px;
+    margin-top: 41px;
+    margin-left: 20px;
+  }
+  #rights {
+    white-space: nowrap;
+    margin-top: 416px;
+  }
+  #privacy {
+    white-space: nowrap;
+    margin-top: 150px;
+    margin-left: -210px;
+  }
+  #facebook {
+    margin-left: -325px;
+    margin-top: -40px;
+    width: 25px;
+    height: 25px;
+  }
+  #instagram {
+    margin-left: -250px;
+    margin-top: -40px;
+    width: 25px;
+    height: 25px;
+  }
+  #req {
+    visibility: visible;
+    top: 215px;
+    left: 4px;
+    margin-left: 140px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    white-space: nowrap;
+    color: #fff;
+    position: absolute;
+  }
+  #adress {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    left: -155px;
+    top: 180px;
+    position: absolute;
+    white-space: nowrap;
+  }
+  #mobile-number {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    position: absolute;
+    top: 150px;
+    left: -155px;
+  }
+  #person-email {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    top: 115px;
+    left: -155px;
+    position: absolute;
+  }
+  #person-name {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    top: 80px;
+    left: 138px;
+    position: absolute;
+  }
+  .modal li {
+    margin-left: -50px;
+    list-style-type: none;
+  }
+  #EN {
+    margin-left: -40px;
+  }
+  #rights, #privacy {
+    font-size: 11px;
+    
+    
+  }
+  #privacy{
+    margin-top: 160px;
+    margin-left: -260px!important;
+  }
+  .cookies {
+    visibility: hidden;
+  }
+}
+
+/*Phone L*/
+
+@media only screen and (max-width: 425px) and (min-width: 376px) and (orientation: portrait) {
+  /* landing page */
+  .navbar-brand {
+    max-width: 78px;
+    min-height: 72px;
+    top: 0px;
+    left: 20px;
+  }
+  .cookies {
+    visibility: hidden;
+  }
+  .menu-list, .menu {
+    visibility: hidden;
+  }
+  #rights, #privacy {
+    font-size: 11px;
+  }
+  .navigation {
+    width: 100%;
+    height: 110px;
+    left: 0px;
+    top: -50px;
+    z-index: 1;
+  }
+  #myBtn {
+    margin-left: -25%;
+    background: url(/images/Group\ 2.svg);
+    border: none;
+    background-size: 80px;
+    background-repeat: no-repeat;
+  }
+  #Sparkle-text p {
+    width: 280px;
+    height: 124px;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    margin-top: 80px;
+    margin-left: 70px;
+  }
+  .contents {
+    width: 100%;
+    margin-top: 40px;
+    transform: scale(1.2);
+  }
+  /* single imgs */
+  #img-1 {
+    content: url(/images/Zanda_1.svg);
+    width: 170px;
+    height: 183px;
+    margin-left: 7%;
+    margin-top: 28%;
+    transform: scale(1.1);
+  }
+  #img-2 {
+    width: 170px;
+    height: 183px;
+    margin-left: -34%;
+    margin-top: 28%;
+    background: url(/images/Sibilla_4.svg);
+    transform: scale(1.1);
+  }
+  #img-3 {
+    width: 140px;
+    height: 82px;
+    margin-left: -159%;
+    margin-top: -83%;
+    background: url(/images/Brinuma_meita-15.svg);
+    transform: scale(1.2);
+  }
+  #img-4 {
+    transform: scale(1.2);
+    width: 140px;
+    height: 82px;
+    margin-left: -244%;
+    margin-top: -47%;
+    background: url(/images/Alina_1\ 1.svg);
+  }
+  #img-5 {
+    width: 194px;
+    height: 171px;
+    margin-top: -65%;
+    margin-left: -290%;
+    background: url(/images/Anda_2\ 1.svg);
+  }
+  #ripped-top {
+    transform: scale(1.1);
+    width: 100%;
+    margin-top: -16.5%;
+    content: url(/images/ripped\ 6\ 7.svg);
+    z-index: 1;
+  }
+  #ripped-bottom {
+    width: 100%;
+    transform: rotate(-360deg);
+    margin-top: 84.2%;
+    content: url(/images/rippedmob.png);
+    z-index: 1;
+    transform: scale(1.3);
+  }
+  /* buttons */
+  #Left-text {
+    width: 394px;
+    height: 29px;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 120px;
+  }
+  #Left-text-2 {
+    width: 233px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 100px;
+  }
+  #Right-text {
+    width: 270px;
+    height: 55px;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    margin-top: 80px;
+    left: 90px;
+  }
+  #Right-text-2 {
+    margin-top: 165px;
+    width: 233px;
+    height: 50px;
+    left: 100px;
+  }
+  /* contact form */
+  .Contact-container {
+    padding-top: 120px;
+    margin-left: -3%;
+  }
+  #Contact {
+    width: 280px;
+    height: 35px;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 80px;
+  }
+  #name {
+    width: 380px;
+    margin-left: 20px;
+  }
+  #email {
+    width: 380px;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  #phone, #company {
+    width: 380px;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  #comments {
+    width: 380px;
+    height: 150px;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  #obligatory {
+    margin-left: 20px;
+    font-size: 12px;
+  }
+  #checkbox {
+    margin-left: 20px;
+  }
+  #acknowledge {
+    margin-left: 51px;
+    font-size: 12px;
+    line-height: 15px;
+    width: 243px;
+    font-size: 12px;
+  }
+  #send {
+    font-size: 18px;
+    line-height: 22px;
+    width: 140px;
+    height: 48px;
+    padding-left: 50px;
+    margin-left: 150px;
+  }
+ /* footer */
+ #Sponsors {
+  width: 160px;
+  height: 33px;
+  left: 80px;
+  margin-top: 83px;
+  font-family: Oswald;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  color: #2f4858;
+}
+.Yellow-footer {
+  margin-top: 0px;
+}
+/* logos */
+.column {
+  width: 50%;
+}
+#get-logo {
+  margin-top: 180px;
+  margin-left: 20px!important;
+}
+#sem-logo {
+  margin-top: 176px;
+  margin-left: 0px;
+}
+#city-bee {
+  margin-top: 40px;
+  margin-left: 22px;
+}
+#linearis {
+  margin-top: 30px;
+  margin-left: 50px;
+  width: 48px;
+}
+.dark-footer {
+  background-image: url(/images/Union-mobile.svg);
+  margin-top: -138px;
+  width: 425px;
+  height: 483px;
+}
+#gold-logo {
+  width: 100px;
+  height: 100px;
+  margin-top: 41px;
+  margin-left: 20px;
+}
+#rights {
+  white-space: nowrap;
+  margin-top: 416px;
+}
+#privacy {
+  white-space: nowrap;
+  margin-top: 150px;
+  margin-left: -210px;
+}
+#facebook {
+  margin-left: -365px;
+  margin-top: -40px;
+  width: 25px;
+  height: 25px;
+}
+#instagram {
+  margin-left: -290px;
+  margin-top: -40px;
+  width: 25px;
+  height: 25px;
+}
+#req {
+  visibility: visible;
+  top: 215px;
+  left: 4px;
+  margin-left: 140px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  white-space: nowrap;
+  color: #fff;
+  position: absolute;
+}
+#adress {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  left: -195px;
+  top: 180px;
+  position: absolute;
+  white-space: nowrap;
+}
+#mobile-number {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  position: absolute;
+  top: 150px;
+  left: -195px;
+}
+#person-email {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  top: 115px;
+  left: -195px;
+  position: absolute;
+}
+#person-name {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  top: 80px;
+  left: 138px;
+  position: absolute;
+}
+.modal li {
+  margin-left: -50px;
+  list-style-type: none;
+}
+#EN {
+  margin-left: -40px;
+}
+#rights, #privacy {
+  font-size: 11px;
+  
+  
+}
+#privacy{
+  margin-top: 160px;
+  margin-left: -300px!important;
+}
+.cookies {
+  visibility: hidden;
+}
+}
+
+/*PHONES landscape*/
+
+@media only screen and (min-device-height: 280px) and (max-device-width: 881px) and (orientation: landscape) {
+  /* landing page */
+  #img-1 {
+    margin-left: -7%;
+  }
+  #img-2 {
+    margin-left: -23.5%;
+  }
+  #img-3 {
+    margin-left: -41%;
+  }
+  #img-4 {
+    margin-left: -143%;
+  }
+  #img-5 {
+    margin-left: -166%;
+  }
+  #Left-text {
+    margin-left: 20%;
+  }
+  #Left-text-2 {
+    margin-left: 10%;
+  }
+  #Right-text-2 {
+    left: 55%;
+  }
+  #Right-text {
+    left: 60%;
+  }
+  .menu-list, .menu {
+    visibility: hidden;
+  }
+  .social-icons {
+    margin-left: 87%;
+  }
+  .person {
+    margin-left: -3%;
+  }
+  #privacy {
+    margin-left: 0%;
+    white-space: nowrap;
+  }
+  .modal li {
+    margin-left: 25%;
+  }
+  #LV {
+    margin-left: 30%;
+  }
+  #EN {
+    margin-left: 25%;
+  }
+  #RU {
+    left: 60%;
+  }
+  .modal-content {
+    height: 600px !important;
+  }
+  .cookies {
+    visibility: hidden;
+  }
+}
+
+/* iphone 5 landscape */
+
+@media only screen and (min-device-height: 320px) and (max-device-width: 568px) and (orientation: landscape) {
+  /* landing page */
+  #img-4 {
+    width: 142px;
+    margin-left: -144%;
+  }
+  #RU {
+    margin-left: 10%;
+  }
+  .cookies {
+    visibility: hidden;
+  }
+}

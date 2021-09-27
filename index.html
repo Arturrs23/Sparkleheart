@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0, 
+    maximum-scale=1.0, user-scalable=no" />
+    <title>Sparkleheart</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+    <link href="/css/style.css" rel="stylesheet" />
+    <link href="/css/mobile.css" rel="stylesheet" />
+    <link href="/css/screens.css" rel="stylesheet">
+    <!-- favicon -->
+    <link rel="shortcut icon" type="image/png" href="/images/Intersect.png.png" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <!-- container body -->
+    <div class="container-base">
+        <!--navigation-->
+        <div class="navigation">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <!-- logo as home btn -->
+                    <a href="/index.html" /> <img src="/images/BlackLogo 3.svg" style="cursor: pointer;" class="navbar-brand"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="modal" data-bs-target="#nav-modal" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            <span class="sr-only"></span>
+          </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link " id="ideja" href="/idea.html">Ideja</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="piesaki" href="/dream.html">Piesaki sapni</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="uzn" href="/uzņēmējiem.html">Uzņēmējiem</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " id="banka" href="/dreambank.html">Sapņu Banka</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " id="sapnis" href="/sponsors.html">Sapņus atbalsta</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " id="number" href="/storys.html">99 Iedvesmas stāsti</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " id="lat" onclick="language()" href="#">LV</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " id="ru" onclick="language()" href="#">RU</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " id="en" onclick="language()" href="#">EN</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- Modal -->
+            <div class="modal fade" id="nav-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <a href="/index.html" /> <img src="/images/BlackLogo 3.svg" id="small-logo-modal"></img>
+                            </a>
+                            <button type="button" class="btn btn-default" data-bs-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+                        </div>
+                        <div class="modal-nav-body">
+                            <ul>
+                                <div id="LV">LV</div>
+                                <div id="EN">EN</div>
+                                <div id="RU">RU</div>
+                                <li> <a href="/idea.html" id="idea">Ideja</a> </li>
+                                <li> <a href="/dream.html" id="dream">Piesaki Sapni</a></li>
+                                <li><a href="/uzņēmējiem.html" id="user">Uzņēmējiem</a></li>
+                                <li><a href="/dreambank.html" id="bank-d">Sapņu banka</a></li>
+                                <li><a href="/sponsors.html" id="dream-a">Sapņus atbalsta</a></li>
+                                <li><a href="/storys.html" id="story">99 Iedvesmas stāsti</a></li>
+                            </ul>
+                        </div>
+                        <div class="modal-footer">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--background video-->
+        <video loop id="myVideo" poster="/images/Sparkle Video 1.svg">
+      <source src="/images/10000000_2284594074995884_8083559880536883200_n.mp4" type="video/mp4">
+    </video>
+        <div class="content">
+            <button id="myBtn" onclick="myFunction()"></button>
+        </div>
+        <!-- sparkle text -->
+        <div class="Sparkle-text">
+            <div id="Sparkle-text">
+                <p>SparkleHeart ir biedrība, kas radīta, lai palīdzētu cilvēkiem piepildīt pat pārdrošākos sapņus. Šeit satiekas sapņotāji un viņu atbalstītāji - uzņēmumi, kas sniedz palīdzīgu roku, lai kopā pasauli padarītu par labāku vietu mums visiem.Mēs
+                    esam gatavi palīdzēt Tev piepildīt sapni. Kā pamats iedvesmai - tiek radīti arī 99 stāsti par Latvijas sievietēm.
+                </p>
+            </div>
+        </div>
+        <!-- images -->
+        <div class="ripped-bar">
+            <div id="ripped-top"></div>
+            <div id="ripped-bottom"></div>
+            <!-- picture container -->
+            <div class="picture-container">
+                <!-- picture row -->
+                <div class="container">
+                    <!-- pics -->
+                    <div class="contents"><img src="/images/Zanda_1.svg" id="img-1"></div>
+                    <div class="contents"><img src="/images/Sibilla_4.svg" id="img-2"></div>
+                    <div class="contents"><img src="/images/Brinuma_meita-15.svg" id="img-3"></div>
+                    <div class="contents"><img src="/images/Alina_1 1.svg" id="img-4"></div>
+                    <div class="contents"><img src="/images/anda.png" id="img-5"></div>
+                </div>
+            </div>
+        </div>
+        <!-- button container -->
+        <div class="button-container">
+            <div id="Left-text">
+                <p>VĒLIES PIEPILDĪT SAVU SAPNI?</p>
+            </div>
+            <a href="/dreambank.html" id="Left-text-2" style="cursor: pointer;">Sapņotājiem</a>
+            <div id="Right-text">
+                <p>VĒLIES PALĪDZĒT KĀDĀM PIEPILDĪT SAPNI?</p>
+            </div>
+            <a href="/uzņēmējiem.html" id="Right-text-2" style="cursor: pointer;">Uzņēmējiem</a>
+        </div>
+        <!-- contact form -->
+        <div class="Contact-container">
+            <div class="Contacts">
+                <div id="Contact">
+                    <p>SAZINĀTIES AR MUMS</p>
+                </div>
+                <!-- form validation -->
+                <form class="form" onsubmit="return valid()" name="myForm" action="#" id="myform">
+                    <input type="text" required="required" placeholder="Vārds, Uzvārds*" id="name" name="name">
+                    <input type="text" required="required" placeholder="E-pasts*" id="email" name="email"></input>
+                    <input type="text" required="required" placeholder="Telefons*" id="phone" name="phone"></input>
+                    <textarea type="text" required="required" placeholder="Jautājums, vai komentārs*" name="comments" id="comments" name="comments"></textarea>
+                    <div id="obligatory">
+                        <p>* obligāti aizpildāmie lauki</p>
+                    </div>
+                    <input type="checkbox" required id="checkbox"></input>
+                    <div id="acknowledge">
+                        <p>Piekrītu, ka mani dati tiks izmantoti likumdošanā noteiktā kārtībā un tiks saglabāti līdz brīdim, kamēr tas būs nepieciešams.</p>
+                    </div>
+                    <input type=submit onclick="return validation()" id="send" value="Sūtīt" style="cursor: pointer;"></input>
+                    <div id="messages" class="text-center" role="alert" style="display:none;">
+                        <h4>Paldies, ka sapņo!</h4>
+                        <p>Ja Tavs sapnis tiks izvēlēts, mēs ar Tevi sazināsimies.</p>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+        <!-- footer -->
+        <div class="Yellow-footer">
+            <div id="Sponsors">
+                <p>ATBALSTĪTĀJI</p>
+            </div>
+            <div class="column">
+                <a href="https://teikums.lv/"><img src="/images/getlogo 1.svg" id="get-logo" style="max-width:80% ">
+            </div>
+            <div class="column">
+                <a href="https://sem.lv/lv/"> <img src="/images/sem_logo-2 1.svg" id="sem-logo" style="max-width:80% "></a>
+            </div>
+            <div class="column">
+                <a href="https://citybee.lv/lv/"> <img src="/images/Citybee-logo 1.svg" id="city-bee" style="max-width:80%"></a>
+            </div>
+            <div class="column">
+                <a href="https://linearistranslations.com/lv/"> <img src="/images/logo1 1.png" id="linearis" style="max-width:50%"></a>
+            </div>
+        </div>
+        <!-- black background -->
+        <div class="dark-footer">
+            <div class="column-1">
+                <img src="/images/GoldenV2Logo 3.svg" id="gold-logo">
+            </div>
+            <span id="rights">
+        <!-- year refresh -->
+        &copy; SparkleHeart
+        <script>document.getElementById('rights').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+        <br>Visas tiesības aizsargātas.
+      </span>
+
+            <div class="menu-list">
+                <a href="/idea.html">
+                    <div id="text1" style="cursor: pointer;">Ideja</div>
+                </a>
+                <a href="/dream.html">
+                    <div id="text2" style="cursor: pointer;">Piesaki Sapni</div>
+                </a>
+                <a href="/uzņēmējiem.html">
+                    <div id="text3" style="cursor: pointer;">Uzņēmējiem</div>
+                </a>
+                <a href="/dreambank.html">
+                    <div id="text4" style="cursor: pointer;">Sapņu banka</div>
+                </a>
+                <a href="/sponsors.html">
+                    <div id="text5" style="cursor: pointer;">Sapņus atbalsta</div>
+                </a>
+                <a href="/storys.html">
+                    <div id="text6" style="cursor: pointer;">Iedvesmas stāsti</div>
+                </a>
+            </div>
+            <div class="menu">
+                <div id="sparkle">Biedrība SparkleHeart</div>
+                <div id="registration">Reģistrācijas nr. 40008293119</div>
+                <div id="bank">Banka: SWEDBANK A/S</div>
+                <div id="number">LV52HABA0551047652465</div>
+            </div>
+            <div class="person">
+                <div id="person-name">Juris Gogulis</div>
+                <a href="mailto:vinoth@email.com">
+                    <div id="person-email">juris.gogulis@sparkleheart.org</div>
+                </a>
+                <a href="tel:+37126890034">
+                    <div id="mobile-number">+37126890034</div>
+                </a>
+                <div id="adress">Biķernieku iela 24a - 5, LV-1006</div>
+                <div id="req">Skatīt rekvizītus</div>
+            </div>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/sparkleheartLV">
+                    <div id="facebook" style="cursor: pointer;"></div>
+                </a>
+                <a href="https://www.instagram.com/sparkleheart_org/">
+                    <div id="instagram" style="cursor: pointer;"></div>
+                </a>
+                <div class="privacy">
+                    <div id="privacy">Privātuma politika</div>
+                </div>
+            </div>
+        </div>
+        <!-- cookies -->
+        <div class="cookies" id="cookies">
+            <img src="#" alt="">
+            <div class="items">
+                <p>Mēs apkopojam un apstradājām Jūsu personisko informāciju šādiem mērķiem: Analīze.
+                    <b>Uzzināt vairāk</b>.
+                </p>
+                <div class="buttons">
+                    <button class="item">Apstiprināt</button>
+                    <button class="item1" id="item1" onClick=" hide()">Noraidīt</button>
+                </div>
+            </div>
+        </div>
+        <!-- script -->
+        <!--anchor top function-->
+        <!-- <button onclick="topFunction()" id="scroll-button" title="Scroll up">Uz sākumu</button> -->
+        <script>
+            //required mute---------------------------------------
+            document.addEventListener('invalid', (function() {
+                return function(e) {
+                    e.preventDefault();
+                    document.getElementById("name").focus();
+                };
+            })(), true);
+            //video function---------------------------------
+            var video = document.getElementById("myVideo");
+            var btn = document.getElementById("myBtn");
+
+            function myFunction() {
+                if (video.paused) {
+                    video.play();
+                    btn.style.opacity = "0.2";
+                } else {
+                    video.pause();
+                    btn.style.opacity = "1";
+                }
+
+
+            }
+            //function that returns name validation and rest of the form 
+            function validation() {
+                var a = valid();
+                var b = validatename();
+                var d = FormValidation();
+
+                return b && a && d;
+            }
+            //name validation---------------------------------
+            function validatename() {
+                var regName = /^[a-zA-Z-ā-žĀ-Ž]+ [a-zA-Z-ā-žĀ-Ž]+$/;
+                var name = document.getElementById('name').value;
+                if (!regName.test(name)) {
+                    Swal.fire({
+                        icon: "",
+                        text: "Nepieciešams Vārds un Uzvārds",
+                    });
+                    document.getElementById('name').focus();
+                    return false;
+                } else {
+                    return true;
+                }
+            }
+            //FORM VALIDATION-----------------------------------
+            function valid() {
+                //email
+                var email = document.forms["myform"]["email"].value;
+                if (email == "") {
+                    Swal.fire({
+                        icon: "",
+                        text: "Nepieciešama epasta adrese!",
+
+                    });
+                    return false;
+                } else {
+                    var re = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+                    var x = re.test(email);
+                    if (x) {} else {
+                        Swal.fire({
+                            icon: 'error',
+                            title: 'Epasta adrese nav pareiza!',
+
+                        })
+                        return false;
+                    }
+                }
+                //phone
+                var mobile = document.forms["myform"]["phone"].value;
+                if (mobile == "") {
+                    Swal.fire({
+                        icon: "",
+                        text: "Nepieciešams jūsu telefona nummurs",
+                    });
+                    return false;
+                } else {
+                    var phone = /^\d{8}$/;
+                    var a = phone.test(mobile);
+                    if (a) {} else {
+                        Swal.fire({
+                            icon: 'error',
+                            title: 'Telefona numurs nav pareizs!',
+
+                        })
+                        return false;
+                    }
+                }
+                var comments = document.forms["myform"]["comments"].value;
+                if (comments == "") {
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Aizpildiet tukšos laukus!',
+
+                    })
+                    return false;
+                }
+            }
+            //Checking if form is correct and full-------------------------------------
+            // IF form full and correct then send
+            $('#myform').submit(function(e) {
+                // Prevents form to be submitted by default post request with page reloading
+                e.preventDefault();
+                // Here you can call your AJAX request
+                callAjax($('input[type=text]').val())
+            });
+
+            function callAjax(value) {
+                // Making AJAX request to your endpoint
+                // GET ipify just for example
+                $.ajax({
+                    url: "https://api.ipify.org?format=json",
+                    type: "GET",
+
+                    beforeSend: function() {
+
+                        return Swal.fire({
+                            title: 'Vai lauki aizpildīti pareizi?',
+                            showCancelButton: true,
+                            confirmButtonColor: '#ffda16',
+                            cancelButtonColor: '#d33',
+                            cancelButtonText: 'Nē',
+                            confirmButtonText: 'Jā'
+                        }).then((result) => {
+                            if (result.isConfirmed) {
+                                document.getElementById("acknowledge").style.display = "none";
+                                document.getElementById("messages").style.display = "block";
+                                document.getElementById("send").style.display = "none";
+                                document.getElementById("checkbox").style.display = "none";
+                                document.getElementById("obligatory").style.display = "none";
+                            }
+                        })
+                    },
+                    success: function(form) {
+
+                    }
+                });
+            }
+            //-------------------------------------------------
+            //checkbox err
+            const checkbox = document.getElementById('checkbox')
+            checkbox.addEventListener('change', (event) => {
+                    if (event.currentTarget.checked) {
+                        Swal.fire({
+                            icon: "info",
+                            text: "Piekrītu, ka mani dati tiks izmantoti likumdošanā noteiktā kārtībā un tiks saglabāti līdz brīdim, kamēr tas būs nepieciešams.",
+                        });
+                    } else {
+                        Swal.fire({
+                            icon: "error",
+                            text: "Nepiekrītu, ka mani dati tiks izmantoti likumdošanā noteiktā kārtībā un tiks saglabāti līdz brīdim, kamēr tas būs nepieciešams.",
+                        });
+                    }
+                })
+                //------------------------------------------------
+                //anchor button
+            var mybutton = document.getElementById("scroll-button");
+            window.onscroll = function() {
+                scrollFunction();
+            };
+
+            function scrollFunction() {
+                if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+                    mybutton.style.display = "block";
+                } else {
+                    mybutton.style.display = "none";
+                }
+            }
+
+            function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+            //------------------------------------------------
+            //stop form from refreshing the page
+            var form = document.getElementById("myform");
+
+            function handleForm(event) {
+                event.preventDefault();
+            }
+            form.addEventListener('submit', handleForm);
+
+            //--------------------------------------------------
+            //cookies
+            const cookieBox = document.querySelector(".cookies"),
+                acceptBtn = cookieBox.querySelector("button");
+            acceptBtn.onclick = () => {
+                //setting cookie for 1 month
+                document.cookie = "Cookie; max-age=" + 60 * 60 * 24 * 30;
+                if (document.cookie) { //if cookie is set
+                    cookieBox.classList.add("hide"); //hide cookie box
+                } else { //if cookie not set then alert an error
+                    alert("Cookie can't be set! Please unblock this site from the cookie setting of your browser.");
+                }
+            }
+            let checkCookie = document.cookie.indexOf("Cookie");
+            //if cookie is set then hide the cookie box else show it
+            checkCookie != -1 ? cookieBox.classList.add("hide") : cookieBox.classList.remove("hide");
+            //cookies deny
+            function hide() {
+                document.getElementById("cookies").style.display = "none";
+            }
+        </script>
+        <!-- container end -->
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sapņus atbalsta</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+    <link href="/css/sponsors.css" rel="stylesheet" />
+    <link href="/css/mobile.css" rel="stylesheet" />
+    <link href="/css/screens.css" rel="stylesheet">
+    <!-- favicon -->
+    <link rel="shortcut icon" type="image/png" href="/images/Intersect.png.png" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="http://libs.cartocdn.com/cartodb.js/v3/3.15/cartodb.js"></script>
+</head>
+
+<body>
+
+    <!-- container body -->
+    <div class="container-base">
+        <!--navigation-->
+        <div class="navigation">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <!-- logo as home btn -->
+                    <a href="/index.html" /> <img src="/images/BlackLogo 3.svg" style="cursor: pointer;"
+                        class="navbar-brand"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="modal" data-bs-target="#nav-modal"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        <span class="sr-only"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link " id="ideja" href="/idea.html">Ideja</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="piesaki" href="/dream.html">Piesaki sapni</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="uzn" href="/uzņēmējiem.html">Uzņēmējiem</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " id="banka" href="/dreambank.html">Sapņu Banka</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " id="sapnis" href="/sponsors.html">Sapņus atbalsta</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " id="number" href="/storys.html">99 Iedvesmas stāsti</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " id="lat" href="#">LV</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- Modal -->
+            <div class="modal fade" id="nav-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <img src="/images/BlackLogo 3.svg" id="small-logo-modal"></img>
+                            <button type="button" class="btn btn-default" data-bs-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-nav-body">
+                            <ul>
+                                <div id="LV">LV</div>
+                                <div id="EN">EN</div>
+                                <div id="RU">RU</div>
+                                <li> <a href="/idea.html" id="idea">Ideja</a> </li>
+                                <li> <a href="/dream.html" id="dream">Piesaki Sapni</a></li>
+                                <li><a href="/uzņēmējiem.html" id="user">Uzņēmējiem</a></li>
+                                <li><a href="/dreambank.html" id="bank-d">Sapņu banka</a></li>
+                                <li><a href="/sponsors.html" id="dream-a">Sapņus atbalsta</a></li>
+                                <li><a href="/storys.html" id="story">99 Iedvesmas stāsti</a></li>
+                            </ul>
+                        </div>
+                        <div class="modal-footer">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- dream title and subtitle -->
+        <div class="Dream-title">
+            <h1 class="title-one">SAPŅUS ATBALSTA</h1>
+            <p class="text-two">
+                Sadarbības partneri ir uzņēmumi, kuri savā preču vai pakalpojumu ikdienā ir integrējuši SparkleHeart
+                zīmolu un dala ar to konkrētu daļu savu ienākumu.
+            </p>
+            <!-- selection from two options -->
+            <div class="content">
+                <div class="row">
+                    <div class="col-lg" id="first">
+                        <p id="select-header-1" class="select-header">Uzņemuma atrašanās vieta</p>
+                        <select name="" onchange="show(this)">
+                            <option value="0" selected>Izvēlies</option>
+                            <option value="1">Rīga</option>
+                            <option value="2">Jelgava</option>
+                            <option value="3">Ogre</option>
+                        </select>
+                    </div>
+                    <div class="col-lg" id="second-item">
+                        <p id="select-header"class="select-header">Uzņēmuma veids</p>
+                        <select name="" id="second">
+                            <option value="" selected>Izvēlies</option>
+                            <option value="">Ēdināšana</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <!-- hide and show restaraunts -->
+            <div class="Restaraunts-container" id="hidden-content" style="display:none;">
+                <div class="Restaraunts">
+                    <!-- logo -->
+                    <div class="logo">
+                        <img id="purch-logo" src="/images/purch.png">
+                    </div>
+                    <div class="Restaraunt purch">
+                        <p class="restaraunt-name">PURCH restaurant</p>
+                    </div>
+                    <div class="restaraunt-location ">
+                        <p id="purch"> +371 25425254<br> Dzelzavas iela 51A</p>
+                    </div>
+                </div>
+                <!-- second restaraunt -->
+                <div class="companies">
+                    <!-- logo -->
+                    <div class="logo">
+                        <img id="kurts-logo" src="/images/kurts.png">
+                    </div>
+                    <div class="Restaraunt kurts">
+                        <p class="restaraunt-name">Kurts coffee</p>
+                    </div>
+                    <div class="restaraunt-location ">
+                        <p id="kurts">+371 23202079 <br> Cēsu iela 20, Tērbatas iela 2i</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- google maps -->
+        <div class="map-responsive ">
+
+            <!-- map section -->
+            <section class="map-section-two">
+                <div class="map-info" id="map-smthn">
+                    <div class="row" id="auch">
+                        <!-- logo section -->
+                        <div class="col-xl-4">
+                            <img id="auch-logo" src="/images/AUCHlogo 1.png">
+                        </div>
+                        <div class="col-xl-8">
+                            <h3>AUCH beauty home</h3>
+                            <p class="text-two">+371 28361686, +371 23202079 <br> auchbeauty@gmail.com <br> Cēsu iela
+                                20, Rīga</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="pin">
+                    <img class=pin src="/images/pin.png" id="pin" onchange="show(this)">
+                </div>
+                <div class="pin">
+                    <img class=pin src="/images/pinblack.png" id="pin-two" onchange="show(this)">
+                </div>
+                <div class="pin">
+                    <img class=pin src="/images/pin.png" id="pin-three" onchange="show(this)">
+                </div>
+                <div class="pin">
+                    <img class=pin src="/images/pin.png" id="pin-four" onchange="show(this)">
+                </div>
+                <div class="pin">
+                    <img class=pin src="/images/pin.png" id="pin-five" onchange="show(this)">
+                </div>
+                <div class="pin">
+                    <img class=pin src="/images/pin.png" id="pin-six" onchange="show(this)">
+                </div>
+
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d34945.03402354665!2d24.570758681643227!3d56.810522282372816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46e9256ecb04739b%3A0x400cfcd68f31a60!2sOgre%2C%20Ogres%20pils%C4%93ta!5e0!3m2!1sen!2slv!4v1630852962441!5m2!1sen!2slv"
+                    width="100%" height="98%" id="map3" style="border:0; margin-top:60px;" allowfullscreen=""
+                    loading="lazy" marginheight="0" marginwidth="0" frameborder="0"></iframe>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39394.2086720486!2d23.725877336942897!3d56.64819340467759!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46ef254b6eed168f%3A0x400cfcd68f31c60!2sJelgava!5e0!3m2!1sen!2slv!4v1630852451735!5m2!1sen!2slv"
+                    id="map2" width="100%" height="98%" style="border:0; margin-top:60px;" allowfullscreen
+                    marginheight="0" marginwidth="0" loading="lazy"></iframe>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d17403.56809216053!2d24.100938255924603!3d56.958292176812996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46eecfcec3ba0f81%3A0xc4ea58d09728848f!2sCentrs%2C%20Central%20District%2C%20Riga!5e0!3m2!1sen!2slv!4v1628844195300!5m2!1sen!2slv"
+                    width="100%" height="98%" style="border:0; margin-top:60px;" allowfullscreen="" loading="lazy"
+                    marginheight="0" marginwidth="0" id="map"></iframe>
+                <!-- Border ? -->
+
+            </section>
+            <!-- plus minus icons -->
+            <div class="plus-minus" style="cursor: pointer;">
+                <div class="plus">
+                    <!-- <button id="zoomIn" style="cursor: pointer;" src="/images/+.png"></button> -->
+                </div>
+                <div class="minus">
+                    <!-- <button class="minus" id="zoomOut" style="cursor: pointer;" src="/images/-.png"> -->
+                </div>
+            </div>
+        </div>
+        <!-- black background -->
+        <div class="dark-footer">
+            <div class="column-1">
+                <img src="/images/GoldenV2Logo 3.svg" id="gold-logo">
+            </div>
+            <span id="rights">
+                <!-- year refresh -->
+                &copy; SparkleHeart
+                <script>document.getElementById('rights').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+                <br>Visas tiesības aizsargātas.
+            </span>
+
+            <div class="menu-list">
+                <a href="/idea.html">
+                    <div id="text1" style="cursor: pointer;">Ideja</div>
+                </a>
+                <a href="/dream.html">
+                    <div id="text2" style="cursor: pointer;">Piesaki Sapni</div>
+                </a>
+                <a href="/uzņēmējiem.html">
+                    <div id="text3" style="cursor: pointer;">Uzņēmējiem</div>
+                </a>
+                <a href="/dreambank.html">
+                    <div id="text4" style="cursor: pointer;">Sapņu banka</div>
+                </a>
+                <a href="/sponsors.html">
+                    <div id="text5" style="cursor: pointer;">Sapņus atbalsta</div>
+                </a>
+                <a href="/storys.html">
+                    <div id="text6" style="cursor: pointer;">Iedvesmas stāsti</div>
+                </a>
+            </div>
+            <div class="menu">
+                <div id="sparkle">Biedrība SparkleHeart</div>
+                <div id="registration">Reģistrācijas nr. 40008293119</div>
+                <div id="bank">Banka: SWEDBANK A/S</div>
+                <div id="number">LV52HABA0551047652465</div>
+            </div>
+            <div class="person">
+                <div id="person-name">Juris Gogulis</div>
+                <a href="mailto:vinoth@email.com">
+                    <div id="person-email">juris.gogulis@sparkleheart.org</div>
+                </a>
+                <a href="tel:+37126890034">
+                    <div id="mobile-number">+37126890034</div>
+                </a>
+                <div id="adress">Biķernieku iela 24a - 5, LV-1006</div>
+                <div id="req">Skatīt rekvizītus</div>
+            </div>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/sparkleheartLV">
+                    <div id="facebook" style="cursor: pointer;"></div>
+                </a>
+                <a href="https://www.instagram.com/sparkleheart_org/">
+                    <div id="instagram" style="cursor: pointer;"></div>
+                </a>
+                <div class="privacy">
+                    <div id="privacy">Privātuma politika</div>
+                </div>
+            </div>
+        </div>
+        <!--anchor scroll top function-->
+        <!-- <button onclick="topFunction()" id="scroll-button" title="Scroll up">Uz sākumu</button> -->
+        <!-- script start -->
+        <script>
+            //anchor scroll button
+            var mybutton = document.getElementById("scroll-button");
+            window.onscroll = function () {
+                scrollFunction();
+            };
+
+            function scrollFunction() {
+                if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+                    mybutton.style.display = "block";
+                } else {
+                    mybutton.style.display = "none";
+                }
+            }
+
+            function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+            //show / hide restaraunts / pins
+            function show(select) {
+                if (select.value == 1) {
+                    document.getElementById('map-smthn').style.display = "none";
+                    document.getElementById('hidden-content').style.display = "block";
+                    document.getElementById('pin').style.display = "block";
+                    document.getElementById('pin-two').style.display = "none";
+                    document.getElementById('pin-three').style.display = "block";
+                    document.getElementById('pin-four').style.display = "none";
+                    document.getElementById('pin-five').style.display = "none";
+                    document.getElementById('pin-six').style.display = "none";
+                    document.getElementById('map').style.display = "block";
+                    document.getElementById('map2').style.display = "none";
+                    document.getElementById('auch').style.display = "none";
+                  
+
+
+
+                } else if (select.value == 2) {
+                    document.getElementById('auch').style.display = "none";
+                    document.getElementById('map2').style.display = "block";
+                    document.getElementById('map').style.display = "none";
+                    document.getElementById('hidden-content').style.display = "none";
+                    document.getElementById('pin').style.display = "none";
+                    document.getElementById('pin-two').style.display = "none";
+                    document.getElementById('pin-three').style.display = "none";
+                    document.getElementById('pin-four').style.display = "none";
+                    document.getElementById('pin-five').style.display = "none";
+                    document.getElementById('pin-six').style.display = "none";
+
+                } else if (select.value == 3) {
+                    document.getElementById('auch').style.display = "none";
+                    document.getElementById('map2').style.display = "none";
+                    document.getElementById('map3').style.display = "block";
+                    document.getElementById('map').style.display = "none";
+                    document.getElementById('hidden-content').style.display = "none";
+                    document.getElementById('pin').style.display = "none";
+                    document.getElementById('pin-two').style.display = "none";
+                    document.getElementById('pin-three').style.display = "none";
+                    document.getElementById('pin-four').style.display = "none";
+                    document.getElementById('pin-five').style.display = "none";
+                    document.getElementById('pin-six').style.display = "none";
+
+                } else if (select.value == 0) {
+                    document.getElementById('hidden-content').style.display = "none";
+                    document.getElementById('pin').style.display = "block";
+                    document.getElementById('pin-two').style.display = "block";
+                    document.getElementById('pin-three').style.display = "block";
+                    document.getElementById('pin-four').style.display = "block";
+                    document.getElementById('pin-five').style.display = "block";
+                    document.getElementById('pin-six').style.display = "block";
+                    document.getElementById('map').style.display = "block";
+                    document.getElementById('map2').style.display = "none";
+                    document.getElementById('map3').style.display = "none";
+                    document.getElementById('auch').style.display = "block";
+
+                }
+            }
+        </script>
+
+</body>
+
+</html>

@@ -1,0 +1,2546 @@
+/* DREAM page index */
+
+/*fonts*/
+
+@font-face {
+    font-family: Montserrat;
+    src: url(/fonts/Montserrat-Regular.otf);
+}
+
+@font-face {
+    font-family: Oswald;
+    src: url(/fonts/Oswald-Regular.ttf);
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container-base {
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+/*hamburger*/
+
+.navbar-toggler {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    background-color: transparent !important;
+    border: none;
+}
+
+/* dream title and subtitle */
+
+.dream-container {
+    width: 100%;
+    height: 155px;
+    margin-top: 205px;
+}
+
+#dream-title {
+    max-width: 400px;
+    max-height: 70px;
+    margin: 0 auto;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 71px;
+    text-align: center;
+    display: block;
+    align-items: center;
+    white-space: nowrap;
+    color: #2f4858;
+}
+
+#dream-paragraph {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    align-items: center;
+    text-align: center;
+    white-space: nowrap;
+    display: block;
+    max-width: 818px;
+    max-height: 31px;
+    color: #2f4858;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+/* dream titles with btns */
+
+.btn-container-dream {
+    height: 500px;
+    width: 100%;
+    margin-top: 90px;
+}
+
+/* left side */
+
+.personal-dream {
+    height: 500px;
+    width: 23%;
+    margin-left: 20%;
+}
+
+#left-logo {
+    margin-left: 35%;
+    max-width: 30%;
+}
+
+#personal-dream {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 44px;
+    display: block;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 60px;
+    color: #2f4858;
+}
+
+#personal-paragraph {
+    max-width: 69%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    color: #2f4858;
+}
+
+/* right side */
+
+.professional-dream {
+    height: 450px;
+    width: 23%;
+    margin-left: 58%;
+    margin-top: -500px;
+}
+
+#professional-dream {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 44px;
+    display: block;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 60px;
+    color: #2f4858;
+}
+
+#professional-paragraph {
+    max-width: 90%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    color: #2f4858;
+    overflow: hidden;
+}
+
+#right-logo {
+    margin-left: 35%;
+    max-width: 30%;
+}
+
+/* yellow buttons */
+
+.btns-yellow {
+    width: 100%;
+    height: 50px;
+    margin-top: 50px;
+}
+
+#btn-dream {
+    max-width: 233px;
+    height: 50px;
+    margin-left: 25%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    background-color: #ffa800;
+    border-radius: 100px;
+    padding-left: 55px;
+    cursor: pointer;
+}
+
+#btn-dreams {
+    max-width: 233px;
+    height: 50px;
+    margin-top: -50px;
+    margin-left: 64%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    background-color: #ffa800;
+    border-radius: 100px;
+    padding-left: 55px;
+    cursor: pointer;
+}
+
+/* imgs */
+
+/* picture-container */
+
+.picture-container {
+    width: 100%;
+    margin-top: 150px;
+}
+
+.container {
+    white-space: nowrap;
+    max-width: 100%;
+    margin: 0px auto;
+}
+
+.contents {
+    margin-top: 0px;
+    width: 31%;
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.container img {
+    max-width: 100%;
+}
+
+/* single imgs */
+
+#imgs-1 {
+    position: absolute;
+    width: 26%;
+    margin-top: -15%;
+    margin-left: -2.4%;
+    z-index: -1;
+}
+
+#imgs-2 {
+    width: 83.4%;
+    margin-left: 41.8%;
+}
+
+#imgs-3 {
+    position: absolute;
+    width: 27%;
+    margin-top: -15.1%;
+    margin-left: -39.8%;
+    z-index: -3;
+}
+
+#imgs-4 {
+    position: absolute;
+    width: 26.4%;
+    margin-top: -1%;
+    margin-left: -72.6%;
+    z-index: -2;
+}
+
+#imgs-5 {
+    width: 37%;
+    z-index: -3;
+    margin-top: -14%;
+    margin-left: -61%;
+    position: absolute;
+    overflow: hidden;
+}
+
+#ripped-top {
+    width: 100%;
+    position: absolute;
+    margin-top: 0%;
+    content: url(/images/ripped\ 6\ 7.svg);
+}
+
+#ripped-bottoms {
+    width: 100%;
+    transform: rotate(-180deg);
+    position: absolute;
+    margin-top: 28.2%;
+    content: url(/images/ripped\ 6\ 7.svg);
+}
+
+.bg-light {
+    background-color: transparent !important;
+}
+
+/*nav-logo*/
+
+.navbar-brand {
+    position: absolute;
+    width: 159px;
+    height: 146px;
+    left: 62px;
+    top: -15px;
+}
+
+#ideja {
+    right: 1015px;
+}
+
+#piesaki {
+    right: 850px;
+}
+
+#uzn {
+    right: 703px;
+}
+
+#lat {
+    top: 7px;
+    right: 80px;
+}
+
+#number {
+    font-weight: 600 !important;
+    top: 27px;
+    right: 142px;
+}
+
+#sapnis {
+    right: 357px;
+}
+
+#banka {
+    right: 545px;
+}
+
+/*nav background ripped*/
+
+.navigation {
+    width: 100%;
+    height: 120px;
+    left: 0%;
+    top: 0%;
+    z-index: 1;
+    background-image: url(/images/Union2.svg);
+    position: absolute;
+    background: transparent;
+}
+
+/*links*/
+
+.navbar .nav-item a {
+    color: #060606 !important;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 30px;
+    white-space: nowrap;
+    position: absolute;
+}
+
+.navbar .nav-item a:hover {
+    text-decoration: underline;
+    text-decoration-color: #ffa800;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 3px;
+}
+
+/* contact container */
+
+.Contact-container {
+    margin-top: 150px;
+    width: 100%;
+    height: 900px;
+}
+
+.Contacts {
+    max-width: 620px;
+    height: 660px;
+    margin-top: 0px;
+    margin: 0 auto;
+}
+
+#Contact {
+    width: 100%;
+    height: 48px;
+    margin-left: 0px;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 44px;
+    text-align: center;
+    color: #2f4858;
+}
+
+input, textarea {
+    border: 0px solid;
+}
+
+input:focus {
+    outline: none !important;
+    border-color: #ff8a00;
+    box-shadow: 0 0 6px #ff8a00;
+}
+
+textarea:focus {
+    outline: none !important;
+    border-color: #ff8a00;
+    box-shadow: 0 0 6px #ff8a00;
+}
+
+input[type="text"]::placeholder {
+    padding-left: 12px !important;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+#name {
+    width: 49%;
+    height: 43px;
+    left: 377px;
+    margin-top: 55px;
+    background: rgba(196, 196, 196, 0.4);
+    border-radius: 6px;
+}
+
+#email {
+    width: 49%;
+    height: 43px;
+    left: 100px;
+    top: 55px;
+    background: rgba(196, 196, 196, 0.4);
+    border-radius: 6px;
+}
+
+#phone {
+    width: 99%;
+    height: 43px;
+    left: 377px;
+    margin-top: 15px;
+    background: rgba(196, 196, 196, 0.4);
+    border-radius: 6px;
+}
+
+#comments {
+    width: 99%;
+    height: 232px;
+    left: 377px;
+    margin-top: 15px;
+    background: rgba(196, 196, 196, 0.4);
+    border-radius: 6px;
+    padding-left: 12px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+#obligatory {
+    width: 612px;
+    height: 25px;
+    left: 377px;
+    top: 418px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #2f4858;
+}
+
+#checkbox {
+    width: 16px;
+    height: 16px;
+    margin-left: 0px;
+    margin-top: 25px;
+    background: #e7e7e7;
+    border-radius: 3px;
+    position: absolute;
+}
+
+[type="checkbox"] {
+    -webkit-appearance: none;
+    display: inline-block;
+    background-color: rgba(196, 196, 196, 0.4);
+    padding: 8px !important;
+    border-radius: 2px;
+    outline: none;
+    cursor: pointer;
+}
+
+[type="checkbox"]:checked:after {
+    content: "\2714";
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 14px;
+    position: absolute;
+    margin-top: -10px;
+    margin-left: -5px;
+    color: #ffa800;
+    outline: none;
+}
+
+#acknowledge {
+    width: 84%;
+    height: 39px;
+    margin-left: 40px;
+    margin-top: 25px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #2f4858;
+}
+
+#btn-dream:hover, #btn-dreams:hover, #send:hover {
+    background: #ffda16;
+}
+
+#btn-dream:active, #btn-dreams:active, #send:active {
+    background: #ff8a00;
+}
+
+#send {
+    width: 182px;
+    height: 62px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    background-color: #ffa800;
+    border-radius: 100px;
+    padding-left: 60px;
+    margin-top: 50px;
+    margin-left: 32%;
+}
+
+/*Modal*/
+
+.navbar-toggle {
+    float: left !important;
+    margin-left: 15px;
+    margin-right: 0;
+}
+
+/*modal body fullscreen*/
+
+.modal {
+    padding: 0 !important;
+}
+
+.modal .modal-dialog {
+    width: 100%;
+    max-width: none;
+    height: 100%;
+    margin: 0;
+}
+
+.modal .modal-content {
+    height: 100%;
+    border: 0;
+    border-radius: 0;
+}
+
+.modal .modal-body {
+    overflow-y: auto;
+}
+
+/*sparkle logo*/
+
+#small-logo-modal {
+    position: absolute;
+    width: 76.95px;
+    height: 71.03px;
+    top: -10px;
+    left: 19.89px;
+}
+
+/*removing underlines*/
+
+.modal-header {
+    border-bottom: 0 none;
+}
+
+.modal-footer {
+    border-top: 0 none;
+}
+
+/* modal overlay*/
+
+.modal-backdrop {
+    background-color: transparent;
+    z-index: -1;
+}
+
+/*close button*/
+
+.btn-default {
+    position: absolute;
+    width: 14.8px;
+    right: 35px;
+    top: 5.45px;
+    transform: scale(1.9);
+}
+
+/*modal list*/
+
+ul {
+    list-style-type: none;
+}
+
+.modal-nav-body a:hover {
+    text-decoration: underline;
+    text-decoration-color: #ffa800;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 3px;
+    font-weight: 900 !important;
+    cursor: pointer;
+}
+
+#LV:hover, #RU:hover, #EN:hover {
+    font-weight: 900 !important;
+}
+
+#idea {
+    position: absolute;
+    width: 40px;
+    height: 24px;
+    left: 180px;
+    top: 156px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+}
+
+#dream {
+    position: absolute;
+    width: 40px;
+    height: 24px;
+    left: 145px;
+    top: 220px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+    white-space: nowrap;
+}
+
+#user {
+    position: absolute;
+    width: 40px;
+    height: 24px;
+    left: 145px;
+    top: 284px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+}
+
+#bank-d {
+    position: absolute;
+    width: 40px;
+    height: 24px;
+    left: 145px;
+    top: 348px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+    white-space: nowrap;
+}
+
+#dream-a {
+    position: absolute;
+    width: 40px;
+    height: 24px;
+    left: 135px;
+    top: 412px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+    white-space: nowrap;
+}
+
+#story {
+    position: absolute;
+    width: 200px;
+    height: 24px;
+    left: 110px;
+    top: 476px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+}
+
+#LV {
+    position: absolute;
+    width: 40px;
+    height: 24px;
+    left: 80px;
+    top: 92px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+}
+
+#EN {
+    position: absolute;
+    width: 40px;
+    height: 24px;
+    left: 180px;
+    top: 92px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+}
+
+#RU {
+    position: absolute;
+    width: 40px;
+    height: 24px;
+    left: 65%;
+    top: 92px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+}
+
+#LV:hover, #EN:hover, #RU:hover {
+    text-decoration: underline;
+    text-decoration-color: #ffa800;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 3px;
+}
+
+#scroll-button {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    margin-left: 65%;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #ffa800;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+#scroll-button:hover {
+    background-color: #ffda16;
+}
+
+#scroll-button:active {
+    background: #ff8a00;
+}
+
+/* dark footer */
+
+.dark-footer {
+    margin-top: -30px;
+    height: 376px;
+    width: 100%;
+    background-image: url(/images/-dark.svg);
+}
+
+#gold-logo {
+    position: absolute;
+    margin-left: 4.54%;
+    margin-right: 82.14%;
+    margin-top: 70px;
+}
+
+#rights {
+    height: 20px;
+    width: 9.5%;
+    position: absolute;
+    margin-left: 4.54%;
+    margin-right: 82.14%;
+    margin-top: 270px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #ffffff;
+}
+
+.menu-list {
+    position: relative;
+    width: 179px;
+    height: 196px;
+    color: #e7e7e7;
+    margin-left: 20%;
+    top: 70px;
+}
+
+#text1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 21px;
+    color: #e7e7e7;
+}
+
+#text2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 21px;
+    color: #e7e7e7;
+}
+
+#text3 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 21px;
+    color: #e7e7e7;
+}
+
+#text4 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 21px;
+    color: #e7e7e7;
+}
+
+#text5 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 21px;
+    color: #e7e7e7;
+}
+
+#text6 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 21px;
+    color: #e7e7e7;
+}
+
+/*sparkle heart*/
+
+.menu {
+    width: 100%;
+    height: 88px;
+    position: relative;
+    top: -120px;
+    margin-left: 45%;
+}
+
+#sparkle {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #ffffff;
+}
+
+#registration {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #ffffff;
+    margin-top: 22px;
+}
+
+#bank {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+#number {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    margin-top: 9px;
+}
+
+/*person*/
+
+.person {
+    width: 100%;
+    height: 85px;
+    position: relative;
+    top: -200px;
+    margin-left: -120px;
+}
+
+#person-name {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: right;
+    color: #ffffff;
+}
+
+#person-email {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+    color: #ffffff;
+    margin-top: 22px;
+}
+
+#mobile-number {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+    color: #ffffff;
+    margin-top: 12px;
+}
+
+#adress {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+/*socials*/
+
+.social-icons {
+    width: 100%;
+    height: 85px;
+    position: relative;
+    top: -130px;
+    margin-left: 90%;
+}
+
+#facebook {
+    position: absolute;
+    left: 0%;
+    right: 9.3%;
+    top: 0%;
+    bottom: 22.61%;
+    content: url(/images/fb.svg);
+}
+
+#instagram {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 22.61%;
+    content: url(/images/inst.svg);
+    margin-left: 29px;
+}
+
+.privacy {
+    margin-left: -60px;
+}
+
+#privacy {
+    height: 20px;
+    width: 9.5%;
+    padding-top: 50px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #ffffff;
+}
+
+#req {
+    visibility: hidden;
+}
+
+/* dream form function text */
+
+#messages {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #ffa800;
+    margin-top: 60px;
+}
+
+.text-center p {
+    margin-top: 30px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.person a {
+    text-decoration: none;
+    width: -20%;
+    background-color: yellow!important;
+}
+
+/*Phone S*/
+
+@media only screen and (max-width: 320px) and (min-width: 280px) and (orientation: portrait) {
+    #facebook {
+        width: 12.5;
+        height: 25px;
+        margin-left: -12%;
+        margin-top: -25px!important;
+    }
+    #RU{
+        margin-left: -6px;
+    }
+    #story{
+        margin-left: -50px!important;
+    }
+    #dream{
+        margin-left: -45px!important;
+    }
+    #instagram {
+        width: 12.5;
+        height: 25px;
+        margin-left: -6%;
+        margin-top: -25px!important;
+    }
+    #person-email {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+        top: 115px;
+        left: 140px!important;
+        position: absolute;
+    }
+    #adress {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+        left: 140px!important;
+        top: 180px;
+        position: absolute;
+        white-space: nowrap;
+    }
+    #mobile-number {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+        position: absolute;
+        top: 150px;
+        left: 140px!important;
+    }
+    #rights {
+        margin-top: 390px !important;
+        font-size: 11px;
+    }
+    .modal a {
+        margin-left: -40px !important;
+        list-style-type: none;
+    }
+    /* logos */
+    #left-logo {
+        position: absolute;
+        margin-top: -170px;
+        margin-left: 50px;
+        transform: scale(1.6);
+    }
+    #right-logo {
+        position: absolute;
+        margin-top: 110px;
+        margin-left: -55px;
+        transform: scale(1.6);
+       
+    }
+    /* btns */
+    #btn-dream {
+        width: 233px;
+        height: 50px;
+        margin-left: 40px;
+        margin-top: -15px;
+       
+    }
+    #btn-dreams {
+        width: 233px;
+        height: 50px;
+        margin-left: 40px;
+        margin-top: -595px;
+      
+    }
+    #privacy {
+        height: 20px;
+        width: 9.5%;
+        padding-top: 50px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 11px;
+        line-height: 17px;
+        color: #ffffff;
+        top: -1220px;
+    }
+    .privacy {
+        margin-top: -20px;
+    }
+    .dream-container {
+        margin-top: 100px;
+    }
+    #dream-paragraph {
+        white-space: pre-line;
+        height: 43px;
+        left: 0px;
+        margin-top: 0px;
+        position: absolute;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        color: #2f4858;
+    }
+    #personal-dream {
+        width: 280px;
+        height: 30px;
+        margin-left: 25px;
+        padding-top: 30px;
+        font-family: Oswald;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #2f4858;
+        margin-top: 265px;
+    }
+    #personal-paragraph {
+        position: absolute;
+        width: 330px;
+        height: 65px;
+        left: 50px;
+        top: 366px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 15px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #2f4858;
+        margin-top: 220px;
+    }
+    #professional-paragraph {
+        position: absolute;
+        width: 280px;
+        height: 108px;
+        left: 20px;
+        top: 1070px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 15px;
+        text-align: center;
+        color: #2f4858;
+    }
+    #professional-dream {
+        width: 280px;
+        height: 30px;
+        margin-left: -110px;
+        padding-top: 310px;
+        font-family: Oswald;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #2f4858;
+        margin-top: 220px;
+    }
+    .container {
+        margin-top: 440px!important;
+    }
+    .contents {
+        width: 100%;
+    }
+    /* pictures */
+    /* single imgs */
+    #imgs-1 {
+        width: 172px;
+        height: 195px;
+        margin-left: -5.2%;
+        margin-top: 44px;
+    }
+    #imgs-2 {
+        width: 193px;
+        height: 149px;
+        margin-left: -117.9%;
+        margin-top: -20%;
+        background-repeat: no-repeat;
+        background-position: center center;
+        text-align: center;
+        background-size: cover;
+    }
+    #imgs-3 {
+        width: 164px;
+        height: 97px;
+        margin-left: -140.7%;
+        margin-top: 13%;
+        content: url(/images/Brinuma_meita-33.png);
+        background-position: center center;
+        text-align: center;
+        background-size: cover;
+    }
+    #imgs-4 {
+        width: 164px;
+        height: 98px;
+        margin-left: -234.4%;
+        margin-top: 43%;
+        content: url(/images/artamb.png);
+        background-position: center center;
+        text-align: center;
+        background-size: cover;
+    }
+    #imgs-5 {
+        width: 210px;
+        height: 154px;
+        margin-left: -342%;
+        margin-top: -31%;
+        background-position: center center;
+        text-align: center;
+        background-size: cover;
+    }
+    #ripped-top {
+        width: 100%;
+        margin-top: -60px !important;
+        content: url(/images/ripped\ 6\ 7.svg);
+    }
+    #ripped-bottoms {
+        width: 100%;
+        transform: rotate(-180deg);
+        margin-top: 272px;
+        content: url(/images/ripped\ 6\ 7.svg);
+    }
+    #scroll-button {
+        display: none;
+        position: fixed;
+        bottom: 20px;
+        margin-left: 40%;
+        z-index: 99;
+        font-size: 18px;
+        border: none;
+        outline: none;
+        background-color: #ffa800;
+        color: white;
+        cursor: pointer;
+        padding: 15px;
+        border-radius: 4px;
+    }
+    /*hamburger*/
+    .navbar-toggler {
+        position: absolute;
+        top: 60px !important;
+        background-color: transparent !important;
+        border: none;
+    }
+    .Contact-container {
+        margin-top: 310px!important;
+    }
+    /* footer */
+    .dark-footer {
+        margin-top: -225px!important;
+        height: 476px;
+        width: 100%;
+        background-image: url(/images/Subtractblack.svg);
+    }
+}
+
+/*Phones M*/
+
+@media only screen and (max-width: 375px) and (min-width: 321px) and (orientation: portrait) {
+     /*close button modal*/
+     .btn-default {
+        position: absolute;
+        width: 14.8px;
+        right: 80px!important;
+        top: 5px;
+        transform: scale(2);
+    }
+    /* logo modal mobile */
+    #small-logo-modal {
+        position: absolute;
+        width: 76.95px;
+        height: 71.03px;
+        top: -5px;
+        left: 50px;
+    }
+    #RU {
+        margin-left: -30px;
+    }
+    #story {
+        margin-left: -50px;
+    }
+    #EN {
+        margin-left: -10px!important;
+    }
+    #LV {
+        margin-left: 30px!important;
+    }
+    
+    
+    /* footer */
+    .black-footer {
+        height: 476px;
+        width: 100%;
+        background-image: url(/images/Subtractblack.svg);
+    }
+    #rights {
+        margin-top: 390px !important;
+        font-size: 11px;
+    }
+    .modal a {
+        margin-left: -20px !important;
+        list-style-type: none;
+    }
+    /* logos */
+    #left-logo {
+        position: absolute;
+        margin-top: -120px;
+        margin-left: 50px;
+        transform: scale(0.8) !important;
+    }
+    #right-logo {
+        position: absolute;
+        margin-top: 160px;
+        margin-left: -70px;
+        transform: scale(0.8) !important;
+    }
+    /* btns */
+    #btn-dream {
+        width: 233px;
+        height: 50px;
+        margin-left: 60px;
+        margin-top: -40px;
+    }
+    #btn-dreams {
+        width: 233px;
+        height: 50px;
+        margin-left: 60px;
+        margin-top: -430px;
+    }
+    #privacy {
+        height: 20px;
+        width: 9.5%;
+        padding-top: 50px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 11px;
+        line-height: 17px;
+        color: #ffffff;
+        top: -1220px;
+    }
+    .privacy {
+        margin-top: -20px;
+    }
+    .dream-container {
+        margin-top: 50px;
+    }
+    #dream-paragraph {
+        white-space: pre-line;
+        height: 43px;
+        left: 0px;
+        margin-top: 0px;
+        position: absolute;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        color: #2f4858;
+    }
+    #personal-dream {
+        width: 280px;
+        height: 30px;
+        margin-left: 40px;
+        padding-top: 30px;
+        font-family: Oswald;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #2f4858;
+    }
+    #professional-dream {
+        width: 280px;
+        height: 30px;
+        margin-left: -110px;
+        padding-top: 310px;
+        font-family: Oswald;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #2f4858;
+    }
+    #personal-paragraph {
+        position: absolute;
+        width: 280px;
+        height: 65px;
+        left: 60px;
+        top: 366px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 15px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #2f4858;
+    }
+    #professional-paragraph {
+        position: absolute;
+        width: 280px;
+        height: 108px;
+        left: 50px;
+        top: 687px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 15px;
+        text-align: center;
+        color: #2f4858;
+    }
+    /* pictures */
+    /* single imgs */
+    #imgs-1 {
+        width: 172px;
+        height: 195px;
+        margin-left: 0.1%;
+        margin-top: 44px;
+    }
+    #imgs-2 {
+        width: 193px;
+        height: 149px;
+        margin-left: -101%;
+        margin-top: -16%;
+        background-repeat: no-repeat;
+        background-position: center center;
+        text-align: center;
+        background-size: cover;
+    }
+    #imgs-3 {
+        width: 194px;
+        height: 97px;
+        margin-left: -137.3%;
+        margin-top: 13%;
+        content: url(/images/Brinuma_meita-33.png);
+        background-position: center center;
+        text-align: center;
+        background-size: cover;
+    }
+    #imgs-4 {
+        width: 187px;
+        height: 98px;
+        margin-left: -230%;
+        margin-top: 40%;
+        content: url(/images/artamb.png);
+        background-position: center center;
+        text-align: center;
+        background-size: cover;
+    }
+    #imgs-5 {
+        width: 220px;
+        height: 154px;
+        margin-left: -332.6%;
+        margin-top: -29%;
+        content: url(/images/Brinuma_meita-2mbo.png);
+        background-position: center center;
+        text-align: center;
+        background-size: cover;
+    }
+    #ripped-top {
+        width: 100%;
+        margin-top: -70px !important;
+        content: url(/images/ripped\ 6\ 7.svg);
+    }
+    #ripped-bottoms {
+        width: 100%;
+        transform: rotate(-180deg);
+        margin-top: 295px;
+        content: url(/images/ripped\ 6\ 7.svg);
+        z-index: 1;
+    }
+    #scroll-button {
+        display: none;
+        position: fixed;
+        bottom: 20px;
+        margin-left: 40%;
+        z-index: 99;
+        font-size: 18px;
+        border: none;
+        outline: none;
+        background-color: #ffa800;
+        color: white;
+        cursor: pointer;
+        padding: 15px;
+        border-radius: 4px;
+    }
+    /*hamburger*/
+    .navbar-toggler {
+        position: absolute;
+        top: 60px !important;
+        background-color: transparent !important;
+        border: none;
+    }
+    .btn-default {
+        position: absolute;
+        width: 14.8px;
+        right: 55px;
+        top: 5.45px;
+        transform: scale(1.9);
+    }
+    #rights {
+        margin-top: 390px !important;
+        font-size: 11px;
+    }
+    #privacy {
+        height: 20px;
+        width: 9.5%;
+        padding-top: 50px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 11px;
+        line-height: 17px;
+        color: #ffffff;
+        top: -1200px;
+    }
+    .privacy {
+        margin-top: -14px;
+    }
+    .modal a {
+        margin-left: -40px;
+        list-style-type: none;
+    }
+    #facebook{
+        width: 12.5;
+        height: 25px;
+        margin-left: -12%;
+        margin-top: -30px!important;
+    }
+    #instagram{
+        width: 12.5;
+        height: 25px;
+        margin-left: -6%;
+        margin-top: -30px!important;
+    }
+    #person-email {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+        top: 115px;
+        left: 140px!important;
+        position: absolute;
+      }
+      #adress {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+        left: 140px!important;
+        top: 180px;
+        position: absolute;
+        white-space: nowrap;
+      }
+      #mobile-number {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+        position: absolute;
+        top: 150px;
+        left: 140px!important;
+      }
+}
+
+/*Phones L*/
+
+@media only screen and (max-width: 425px) and (min-width: 376px) and (orientation: portrait) {
+     /*close button modal*/
+     .btn-default {
+        position: absolute;
+        width: 14.8px;
+        right: 105px!important;
+        top: 5px;
+        transform: scale(2);
+    }
+    /* logo modal mobile */
+    #small-logo-modal {
+        position: absolute;
+        width: 76.95px;
+        height: 71.03px;
+        
+        top: -5px;
+        left: 70px;
+    }
+    #RU {
+        margin-left: -40px;
+    }
+    #story {
+        margin-left: -50px;
+    }
+    #EN {
+        margin-left: 10px!important;
+    }
+    #LV {
+        margin-left: 50px!important;
+    }
+    
+    
+    
+    /* footer */
+    .black-footer {
+        height: 476px;
+        width: 100%;
+        background-image: url(/images/Subtractblack.svg);
+    }
+    #rights {
+        margin-top: 390px !important;
+        font-size: 11px;
+    }
+    .modal a {
+        margin-left: 0px !important;
+        list-style-type: none;
+    }
+    /* logos */
+    #left-logo {
+        position: absolute;
+        margin-top: -150px;
+        margin-left: 50px;
+        transform: scale(0.8) !important;
+    }
+    #right-logo {
+        position: absolute;
+        margin-top: 130px;
+        margin-left: -90px;
+        transform: scale(0.8) !important;
+    }
+    /* btns */
+    #btn-dream {
+        width: 233px;
+        height: 50px;
+        margin-left: 100px;
+        margin-top: -40px;
+    }
+    #btn-dreams {
+        width: 233px;
+        height: 50px;
+        margin-left: 100px;
+        margin-top: -430px;
+    }
+    #privacy {
+        height: 20px;
+        width: 9.5%;
+        padding-top: 50px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 11px;
+        line-height: 17px;
+        color: #ffffff;
+        top: -1220px;
+    }
+    .privacy {
+        margin-top: -20px;
+    }
+    .dream-container {
+        margin-top: 50px;
+    }
+    #dream-paragraph {
+        height: 43px;
+        margin-left: 20px;
+        margin-top: 0px;
+        position: absolute;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        color: #2f4858;
+    }
+    #personal-dream {
+        width: 280px;
+        height: 30px;
+        margin-left: 40px;
+        padding-top: 30px;
+        font-family: Oswald;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #2f4858;
+    }
+    #professional-dream {
+        width: 280px;
+        height: 30px;
+        margin-left: -130px;
+        padding-top: 310px;
+        font-family: Oswald;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #2f4858;
+    }
+    #personal-paragraph {
+        position: absolute;
+        width: 280px;
+        height: 65px;
+        left: 60px;
+        top: 366px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 15px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #2f4858;
+    }
+    #professional-paragraph {
+        position: absolute;
+        width: 280px;
+        height: 108px;
+        left: 70px;
+        top: 687px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 15px;
+        text-align: center;
+        color: #2f4858;
+    }
+    /* pictures */
+    /* single imgs */
+    /* single imgs */
+    #imgs-1 {
+        width: 100%;
+        height: 183px;
+        margin-left: -23.2%;
+        margin-top: 16%;
+        transform: scale(1.1);
+    }
+    #imgs-2 {
+        width: 100%;
+        height: 203px;
+        margin-left: -107.8%;
+        margin-top: -18%;
+    }
+    #imgs-3 {
+        width: 100%;
+        height: 82px;
+        margin-left: -148%;
+        margin-top: 13.5%;
+        transform: scale(1.4);
+    }
+    #imgs-4 {
+        transform: scale(1.4);
+        width: 100%;
+        height: 82px;
+        margin-left: -232%;
+        margin-top: 40%;
+    }
+    #imgs-5 {
+        width: 52%;
+        height: 193px;
+        margin-top: -36%;
+        margin-left: -293%;
+        transform: scale(0.9);
+    }
+    #ripped-top {
+        width: 100%;
+        margin-top: -59px !important;
+        content: url(/images/ripped\ 6\ 7.svg);
+    }
+    #ripped-bottoms {
+        width: 100%;
+        transform: rotate(-180deg);
+        margin-top: 399px;
+        content: url(/images/ripped\ 6\ 7.svg);
+        z-index: 1;
+    }
+    #scroll-button {
+        display: none;
+        position: fixed;
+        bottom: 20px;
+        margin-left: 40%;
+        z-index: 99;
+        font-size: 18px;
+        border: none;
+        outline: none;
+        background-color: #ffa800;
+        color: white;
+        cursor: pointer;
+        padding: 15px;
+        border-radius: 4px;
+    }
+    /*hamburger*/
+    .navbar-toggler {
+        position: absolute;
+        top: 60px !important;
+        background-color: transparent !important;
+        border: none;
+    }
+    .btn-default {
+        position: absolute;
+        width: 14.8px;
+        right: 55px;
+        top: 5.45px;
+        transform: scale(1.9);
+    }
+    #rights {
+        margin-top: 390px !important;
+        font-size: 11px;
+    }
+    #privacy {
+        height: 20px;
+        width: 9.5%;
+        padding-top: 50px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 11px;
+        line-height: 17px;
+        color: #ffffff;
+        top: -1200px;
+    }
+    .privacy {
+        margin-top: -14px;
+    }
+    .modal a {
+        margin-left: -40px;
+        list-style-type: none;
+    }
+    #facebook{
+        width: 12.5;
+        height: 25px;
+        margin-left: -12%;
+        margin-top: -30px!important;
+    }
+    #instagram{
+        width: 12.5;
+        height: 25px;
+        margin-left: -6%;
+        margin-top: -30px!important;
+    }
+    #person-email {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+        top: 115px;
+        left: 140px!important;
+        position: absolute;
+      }
+      #adress {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+        left: 140px!important;
+        top: 180px;
+        position: absolute;
+        white-space: nowrap;
+      }
+      #mobile-number {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 15px;
+        position: absolute;
+        top: 150px;
+        left: 140px!important;
+      }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 426px) and (orientation: portrait) {
+    #personal-paragraph {
+        font-size: 11px;
+        position: absolute;
+        width: 208px;
+        height: 114px;
+        margin-left: -7%;
+    }
+    #professional-paragraph {
+        font-size: 14px;
+        position: absolute;
+        width: 208px;
+        height: 114px;
+        margin-left: 0%;
+        font-size: 11px;
+    }
+    #btn-dream {
+        max-width: 200px;
+        margin-left: 15%;
+    }
+    #btn-dreams {
+        max-width: 200px;
+        margin-left: 60%;
+    }
+}
+
+/* iPad PORTRAIT style here */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+      /* modal menu */
+      #RU {
+        font-size: 24px;
+        margin-top: 100px;
+        margin-left: -10px;
+    }
+    #LV {
+        font-size: 24px;
+        margin-top: 100px;
+        margin-left: 155px;
+    }
+    #EN {
+        font-size: 24px;
+        margin-top: 100px;
+        margin-left: 180px;
+    }
+    #story {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        white-space: nowrap;
+        margin-top: 340px;
+        margin-left: 155px!important;
+    }
+    #dream-a {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        white-space: nowrap;
+        margin-top: 300px;
+        margin-left: 155px!important;
+    }
+    #bank-d {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        white-space: nowrap;
+        margin-top: 260px;
+        margin-left: 160px!important;
+    }
+    #user {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        white-space: nowrap;
+        margin-top: 220px;
+        margin-left: 160px!important;
+    }
+    #dream {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        white-space: nowrap;
+        margin-top: 180px;
+        margin-left: 160px!important;
+    }
+    #idea {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        white-space: nowrap;
+        margin-top: 140px;
+        margin-left: 175px!important;
+    }
+    /*close button*/
+    .btn-default {
+        position: absolute;
+        width: 14.8px;
+        right: 95px;
+        top: 20px;
+        transform: scale(3.9);
+    }
+    #small-logo-modal {
+        position: absolute;
+        width: 128px;
+        height: 118px;
+        top: -10px;
+        left: 80px;
+    }
+    
+    
+    
+    
+    /* logos */
+    #left-logo {
+        width: 226.12px;
+        height: 238px;
+        left: 130px;
+        top: 590px;
+        position: absolute;
+        margin-top: -170px;
+        margin-left: 140px;
+        transform: scale(0.8) !important;
+    }
+    #right-logo {
+        width: 226.12px;
+        height: 238px;
+        left: 134px;
+        top: 1212px;
+        position: absolute;
+        margin-top: -170px;
+        margin-left: 140px;
+        transform: scale(0.8) !important;
+    }
+    /* picture container */
+    .picture-container {
+        margin-top: 820px;
+    }
+    /* btns */
+    #btn-dream {
+        width: 233px;
+        height: 50px;
+        margin-left: 35%;
+        margin-top: 88%;
+    }
+    #btn-dreams {
+        width: 233px;
+        height: 50px;
+        margin-left: 35%;
+        margin-top: -95%;
+    }
+    #privacy {
+        height: 20px;
+        width: 9.5%;
+        padding-top: 50px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 11px;
+        line-height: 17px;
+        color: #ffffff;
+        top: -1220px;
+    }
+    .privacy {
+        margin-top: -20px;
+    }
+    .dream-container {
+        margin-top: 170px;
+    }
+    #dream-paragraph {
+        height: 59px;
+        max-width: 600px;
+        margin-left: 100px;
+        margin-top: 50px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center;
+        color: #2f4858;
+        
+    }
+    #personal-dream {
+        position: absolute;
+        width: 394px;
+        height: 30px;
+        left: 265px;
+        top: 645px;
+        font-family: Oswald;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 44px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #2F4858;
+    }
+    #personal-paragraph {
+        position: absolute;
+        min-width: 600px;
+        height: 55px;
+        left: 80px;
+        top: 775px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #2F4858;
+    }
+    #professional-dream {
+        position: absolute;
+        width: 394px;
+        height: 30px;
+        left: 250px;
+        top: 1270px;
+        font-family: Oswald;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 44px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #2F4858;
+    }
+    #professional-paragraph {
+        position: absolute;
+        width: 608px;
+        height: 114px;
+        left: 80px;
+        top: 1378px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        color: #2F4858;
+    }
+    .modal a {
+        margin-left: 200px !important;
+        list-style-type: none;
+    }
+    /*nav background ripped*/
+    .navigation {
+        width: 100%;
+        height: 120px;
+        left: 0%;
+        top: -2%;
+        z-index: 1;
+        position: absolute;
+    }
+    /*nav-logo*/
+    .navbar-brand {
+        position: absolute;
+        width: 128px;
+        height: 118px;
+        left: 80px;
+        top: 10px;
+    }
+    /*hamburger*/
+    .navbar-toggler {
+        position: fixed!important;
+        right: 65px;
+        top: 25px;
+        background-color: transparent !important;
+        border: none;
+    }
+    .Contact-container {
+        margin-top: 145px;
+    }
+    #acknowledge {
+        margin-top: 0px;
+    }
+    #checkbox {
+        margin-top: 7px;
+        margin-left: 5px;
+    }
+    #send {
+        margin-left: 35%;
+    }
+    /* footer */
+    .dark-footer {
+        margin-top: -115px;
+        height: 393px;
+        width: 100%;
+        background-image: url(/images/blacksmthn.svg);
+    }
+    #privacy {
+        margin-left: -10%;
+        margin-top: 2%;
+        white-space: nowrap;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .menu, .menu-list {
+        visibility: hidden;
+    }
+    .person {
+        margin-left: -10%;
+        margin-top: 4%;
+    }
+    #person-email {
+        margin-left: 58%;
+    }
+    #mobile-number {
+        margin-left: -45%!important;
+    }
+    #adress {
+        white-space: nowrap;
+        margin-left: 0%!important;
+    }
+    #scroll-button {
+        margin-left: 55%;
+    }
+    #facebook {
+        width: 12.5;
+        height: 25px;
+        margin-left: -9.5%;
+        margin-top: -7px;
+    }
+    #instagram {
+        width: 12.5;
+        height: 25px;
+        margin-left: -3.5%;
+        margin-top: -7px;
+    }
+    #person-name {
+        left: 20%;
+        top: 170%;
+        position: absolute;
+    }
+    #gold-logo {
+        margin-left: 80px;
+        width: 162px;
+        height: 162px;
+    }
+    #req {
+        color: #ffffff;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;
+        visibility: visible;
+        margin-left: 81%;
+        margin-top: 4px;
+    }
+    #rights {
+        white-space: nowrap!important;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        margin-top: 42%;
+    }
+}
+
+/* ipad PRO portrait*/
+
+@media only screen and (max-height: 1366px) and (min-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) and (orientation: portrait) {
+    /* iPad PRO PORTRAIT style here */
+    #left-logo {
+        position: absolute;
+        margin-top: -170px;
+        margin-left: 230px;
+        transform: scale(0.8) !important;
+    }
+    #right-logo {
+        position: absolute;
+        margin-top: 130px;
+        margin-left: -120px;
+        transform: scale(0.8) !important;
+    }
+    /* btns */
+    #btn-dream {
+        width: 233px;
+        height: 50px;
+        margin-left: 420px !important;
+        margin-top: -40px;
+    }
+    #btn-dreams {
+        width: 233px;
+        height: 50px;
+        margin-left: 420px !important;
+        margin-top: -410px;
+    }
+    #privacy {
+        height: 20px;
+        width: 9.5%;
+        padding-top: 50px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 11px;
+        line-height: 17px;
+        color: #ffffff;
+        top: -1220px;
+    }
+    .privacy {
+        margin-top: -20px;
+    }
+    .dream-container {
+        margin-top: 50px;
+    }
+    #dream-paragraph {
+        height: 43px;
+        margin-left: 330px;
+        margin-top: 0px;
+        position: absolute;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        color: #2f4858;
+    }
+    #personal-dream {
+        width: 280px;
+        height: 30px;
+        margin-left: 240px;
+        padding-top: 40px;
+        font-family: Oswald;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #2f4858;
+    }
+    #personal-paragraph {
+        width: 608px;
+        height: 55px;
+        margin-left: 10%;
+        top: 355px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;
+        color: #2f4858;
+    }
+    #professional-dream {
+        width: 280px;
+        height: 30px;
+        margin-left: -150px;
+        padding-top: 340px;
+        font-family: Oswald;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #2f4858;
+    }
+    #professional-paragraph {
+        position: absolute;
+        width: 608px;
+        height: 114px;
+        left: 80px;
+        top: 700px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        color: #2f4858;
+    }
+}
+
+/* Laptops, Desktops */
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    /* btns */
+    #btn-dream {
+        margin-left: 23%;
+    }
+    #btn-dreams {
+        margin-left: 61%;
+    }
+    #professional-paragraph {
+        font-family: Montserrat;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        display: block;
+        max-width: 806px;
+        max-height: 112px;
+        margin: 0 auto;
+        color: #2f4858;
+        margin-top: 0px;
+        margin-left: 12%;
+    }
+}
+
+@media (min-width: 1440px) and (max-width: 1919px) {
+    /* btns */
+}
+
+/* 4k */
+
+@media (min-width: 2560px) {
+    #imgs-2 {
+        margin-top: 1%;
+    }
+    #ripped-bottoms {
+        margin-top: 29%;
+    }
+    #btn-dream {
+        margin-left: 27%;
+    }
+    #btn-dreams {
+        margin-left: 65%;
+    }
+}
+
+/*Surafce duo portrait*/
+
+@media screen and (min-width: 426px) and (max-width: 600px) and (orientation: portrait) {
+    .modal a {
+        margin-left: 60px !important;
+        list-style-type: none;
+    }
+}

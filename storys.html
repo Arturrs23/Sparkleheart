@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>99 Iedvesmas stāsti</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+    <link href="/css/storys.css" rel="stylesheet" />
+    <link href="/css/mobile.css" rel="stylesheet" />
+    <link href="/css/screens.css" rel="stylesheet">
+    <!-- favicon -->
+    <link rel="shortcut icon" type="image/png" href="/images/Intersect.png.png" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+        integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/css/bootstrap.css" rel="stylesheet" />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/js/bootstrap.js"></script>
+    
+    
+    
+    
+
+
+
+
+</head>
+
+<body>
+    <!-- container body -->
+    <div class="container-base">
+          <!--navigation-->
+          <div class="navigation">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <!-- logo as home btn -->
+                    <a href="/index.html" /> <img src="/images/BlackLogo 3.svg" style="cursor: pointer;"
+                        class="navbar-brand"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="modal" data-bs-target="#nav-modal"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        <span class="sr-only"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link " id="ideja" href="/idea.html">Ideja</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="piesaki" href="/dream.html">Piesaki sapni</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="uzn" href="/uzņēmējiem.html">Uzņēmējiem</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " id="banka" href="/dreambank.html">Sapņu Banka</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " id="sapnis" href="/sponsors.html">Sapņus atbalsta</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " id="number" href="/storys.html">99 Iedvesmas stāsti</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " id="lat" href="#">LV</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- Modal -->
+            <div class="modal " id="nav-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content-two">
+                        <div class="modal-header">
+                            <img src="/images/BlackLogo 3.svg" id="small-logo-modal"></img>
+                            <button type="button" class="btn btn-default" data-bs-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-nav-body">
+                            <ul>
+                                <div id="LV">LV</div>
+                                <div id="EN">EN</div>
+                                <div id="RU">RU</div>
+                                <li> <a href="/idea.html" id="idea">Ideja</a> </li>
+                                <li> <a href="/dream.html" id="dream">Piesaki Sapni</a></li>
+                                <li><a href="/uzņēmējiem.html" id="user">Uzņēmējiem</a></li>
+                                <li><a href="/dreambank.html" id="bank-d">Sapņu banka</a></li>
+                                <li><a href="/sponsors.html" id="dream-a">Sapņus atbalsta</a></li>
+                                <li><a href="/storys.html" id="story">99 Iedvesmas stāsti</a></li>
+                            </ul>
+                        </div>
+                        <div class="modal-footer">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- dream title and subtitle -->
+        <div class="Story-title">
+            <h1 class="title-one">99 IEDVESMAS STĀSTI</h1>
+            <p class="text-two">
+                Atklāj kādu no 99 aizraujošajiem stāstiem
+            </p>
+        </div>
+        <!-- Photo Grid -->
+        <div class="contents">
+            <div class="wrap">
+                <div class="first one" style="cursor: pointer;" data-toggle="modal" data-target=".videopopup">
+                    <img src="/images/1.png" class="yellow-color" id="1" style="width:100%" data-src="images/1.mp4">
+                    <span>1</span>
+                </div>
+                <div class="first one" style="cursor: pointer;" data-toggle="modal" data-target=".videopopup">
+                    <img src="/images/2.png" class="yellow-color" id="2" style="width:100%" data-src="images/2.mp4">
+                    <span>2</span>
+                </div>
+                <div class="first one" style="cursor: pointer;" data-toggle="modal" data-target=".videopopup">
+                    <img src="/images/3.png" class="yellow-color" id="3" style="width:100%" data-src="images/3.mp4">
+                    <span>3</span>
+                </div>
+                <div class="first one" style="cursor: pointer;" data-toggle="modal" data-target=".videopopup">
+                    <img src="/images/4.png" class="yellow-color" id="4" style="width:100%" data-src="images/4.mp4">
+                    <span>4</span>
+                </div>
+                <div class="first one" style="cursor: pointer;" data-toggle="modal" data-target=".videopopup">
+                    <img src="/images/Arta_4.png" class="yellow-color" id="5" style="width:100%"
+                        data-src="images/artavideo.mp4">
+                    <span>5</span>
+                </div>
+
+                <!-- MODAL POPUP -->
+                <div class="modal fade  videopopup" id="myModal" tabindex="-1" role="dialog"
+                    aria-labelledby="myLargeModalLabel">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+
+                            <button type="button" class="close videobtn" data-dismiss="modal" aria-label="Close"><span
+                                    aria-hidden="true">×</span></button>
+                            <div class="modal-body">
+                                <!-- play btn -->
+                                <div class="content">
+                                    <button id="myButton"></button>
+                                </div>
+                                <video id="recap" onclick="myFunction()" style="cursor: pointer;" width="100%"
+                                    controlslist="nodownload">
+                                    <source src="" type="video/mp4">
+                                    <!-- <source src="" type="video/ogg"> -->
+                                    Your browser does not support the video tag.
+                                </video>
+
+                            </div>
+                            <div class="person-names">
+                                <div id="person1">Alīna</div>
+                                <div id="person2">Katrīna</div>
+                                <div id="person3">Egija</div>
+                                <div id="person4">Asnāte</div>
+                                <div id="person5">Arta Balode</div>
+                                <div id="person6">Anda</div>
+                                <div id="person7">Ilze</div>
+                                <div id="person8">Indra</div>
+                                <div id="person9">Katrīna</div>
+                                <div id="person10">Ketija Karlsone</div>
+                                <div id="person11">Lauma</div>
+                                <div id="person12">Līga</div>
+                                <div id="person13">Marta</div>
+                                <div id="person14">Regīna</div>
+                                <div id="person15">Zanda</div>
+                                <div id="person16">Valentīna Zepa</div>
+                                <div id="person17">Sibilla</div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Video fields -->
+                <div class=" first one" style="cursor: pointer;" data-toggle="modal" data-target=".videopopup">
+                    <img src="/images/6.png" class="yellow-color" id="6" style="width:100%" data-src="images/6.mp4">
+                    <span>6</span>
+                </div>
+                <div class="first one" style="cursor: pointer;" data-toggle="modal" data-target=".videopopup">
+                    <img src="/images/7.png" class="yellow-color" id="7" style="width:100%" data-src="images/7.mp4">
+                    <span>7</span>
+                </div>
+                <div class="first one" style="cursor: pointer;" data-toggle="modal" data-target=".videopopup">
+                    <img src="/images/8.png" class="yellow-color" id="8" style="width:100%" data-src="images/8.mp4">
+                    <span>8</span>
+                </div>
+                <div class="first one" style="cursor: pointer;" data-toggle="modal" data-target=".videopopup">
+                    <img src="/images/9.png" class="yellow-color" id="9" style="width:100%" data-src="images/9.mp4">
+                    <span>9</span>
+                </div>
+                <div class="first one" style="cursor: pointer;" data-toggle="modal" data-target=".videopopup">
+                    <img src="/images/10.png" class="yellow-color" id="10" style="width:100%" data-src="images/10.mp4">
+                    <span>10</span>
+                </div>
+                <div class="first one" style="cursor: pointer;" data-toggle="modal" data-target=".videopopup">
+                    <img src="/images/11.png" class="yellow-color" id="11" style="width:100%" data-src="images/11.mp4">
+                    <span>11</span>
+                </div>
+                <div class="first one" style="cursor: pointer;" data-toggle="modal" data-target=".videopopup">
+                    <img src="/images/12.png" class="yellow-color" id="12" style="width:100%" data-src="images/12.mp4">
+                    <span>12</span>
+                </div>
+                <div class="first one" style="cursor: pointer;" data-toggle="modal" data-target=".videopopup">
+                    <img src="/images/13.png" class="yellow-color" id="13" style="width:100%" data-src="images/13.mp4">
+                    <span>13</span>
+                </div>
+                <div class="first one" style="cursor: pointer;" data-toggle="modal" data-target=".videopopup">
+                    <img src="/images/14.png" class="yellow-color" id="14" style="width:100%" data-src="images/14.mp4">
+                    <span>14</span>
+                </div>
+                <div class="first one" style="cursor: pointer;" data-toggle="modal" data-target=".videopopup">
+                    <img src="/images/15.png" class="yellow-color" id="15" style="width:100%" data-src="images/15.mp4">
+                    <span>15</span>
+                </div>
+                <div class="first one" style="cursor: pointer;" data-toggle="modal" data-target=".videopopup">
+                    <img src="/images/16.png" class="yellow-color" id="16" style="width:100%" data-src="images/16.mp4">
+                    <span>16</span>
+                </div>
+                <div class="first one" style="cursor: pointer;" data-toggle="modal" data-target=".videopopup">
+                    <img src="/images/17.png" class="yellow-color" id="17" style="width:100%" data-src="images/17.mp4">
+                    <span>17</span>
+                </div>
+                <!-- empty fields -->
+                <div class="first one">
+                    <img src="" style="width:15%">
+                    <span>
+                        <h5>Jauns stāsts tiks pievienots drīzumā</h5> 18
+                    </span>
+                </div>
+                <div class="first one">
+                    <img src="" style="width:15%">
+                    <span>19</span>
+                </div>
+                <div class="first one">
+                    <img src="" style="width:15%">
+                    <span>20</span>
+                </div>
+
+                <!-- hidden items -->
+                <div id="hide" class="first one">
+                    <img src="" id="hide" style="width:15%">
+                    <span>21</span>
+                </div>
+
+                <div id="hide" class="first one">
+                    <img src="" id="hide" style="width:15%">
+                    <span>22</span>
+                </div>
+
+                <div id="hide" class="first one">
+                    <img src="" id="hide" style="width:15%">
+                    <span>23</span>
+                </div>
+                <div id="hide" class="first one">
+                    <img src="" id="hide" style="width:15%">
+                    <span>24</span>
+                </div>
+                <div id="hide" class="first one">
+                    <img src="" id="hide" style="width:15%">
+                    <span>25</span>
+                </div>
+                <div id="hide" class="first one">
+                    <img src="" id="hide" style="width:15%">
+                    <span>26</span>
+                </div>
+                <div id="hide" class="first one">
+                    <img src="" id="hide" style="width:15%">
+                    <span>27</span>
+                </div>
+                <div id="hide" class="first one">
+                    <img src="" id="hide" style="width:15%">
+                    <span>28</span>
+                </div>
+                <div id="hide" class="first one">
+                    <img src="" id="hide" style="width:15%">
+                    <span>29</span>
+                </div>
+                <div id="hide" class="first one">
+                    <img src="" id="hide" style="width:15%">
+                    <span>30</span>
+                </div>
+                <div id="hide" class="first one">
+                    <img src="" id="hide" style="width:15%">
+                    <span>31</span>
+                </div>
+                <div id="hide" class="first one">
+                    <img src="" id="hide" style="width:15%">
+                    <span>32</span>
+                </div>
+                <div id="hide" class="first one">
+                    <img src="" id="hide" style="width:15%">
+                    <span>33</span>
+                </div>
+                <div id="hide" class="first one">
+                    <img src="" id="hide" style="width:15%">
+                    <span>34</span>
+                </div>
+                <div id="hide" class="first one">
+                    <img src="" id="hide" style="width:15%">
+                    <span>35</span>
+                </div>
+
+                <div id="hide" class="first one">
+                    <img src="" id="hide" style="width:15%">
+                    <span>36</span>
+                </div>
+                <div id="hide" class="first one">
+                    <img src="" id="hide" style="width:15%">
+                    <span>37</span>
+                </div>
+                <div id="hide" class="first one">
+                    <img src="" id="hide" style="width:15%">
+                    <span>38</span>
+                </div>
+                <div id="hide" class="first one">
+                    <img src="" id="hide" style="width:15%">
+                    <span>39</span>
+                </div>
+
+                <div id="hide" class="first one">
+                    <img src="" id="hide" style="width:15%">
+                    <span>40</span>
+                </div>
+                <div id="hide" class="first one">
+                    <img src="" id="hide" style="width:15%">
+                    <span>41</span>
+                </div>
+                <div id="hide" class="first one">
+                    <img src="" id="hide" style="width:15%">
+                    <span>42</span>
+                </div>
+                <div id="hide" class="first one">
+                    <img src="" id="hide" style="width:15%">
+                    <span>43</span>
+                </div>
+                <div id="hide" class="first one">
+                    <img src="" id="hide" style="width:15%">
+                    <span>44</span>
+                </div>
+                <div id="hide" class="first one">
+                    <img src="" id="hide" style="width:15%">
+                    <span>45</span>
+                </div>
+                <div id="hide" class="first one">
+                    <img src="" id="hide" style="width:15%">
+                    <span>46</span>
+                </div>
+                <div id="hide" class="first one">
+                    <img src="" id="hide" style="width:15%">
+                    <span>47</span>
+                </div>
+                <div id="hide" class="first one">
+                    <img src="" id="hide" style="width:15%">
+                    <span>48</span>
+                </div>
+                <div id="hide" class="first one">
+                    <img src="" id="hide" style="width:15%">
+                    <span>49</span>
+                </div>
+                <div id="hide" class="first one">
+                    <img src="" id="hide" style="width:15%">
+                    <span>50</span>
+                </div>
+                <div id="hide" class="first one">
+                    <img src="" id="hide" style="width:15%">
+                    <span>51</span>
+                </div>
+                <div id="hide" class="first one">
+                    <img src="" id="hide" style="width:15%">
+                    <span>52</span>
+                </div>
+
+                <div id="hide" class="first one">
+                    <img src="" id="hide" style="width:15%">
+                    <span>53</span>
+                </div>
+                <div id="hide" class="first one">
+                    <img src="" id="hide" style="width:15%">
+                    <span>54</span>
+                </div>
+                <div id="hide" class="first one">
+                    <img src="" id="hide" style="width:15%">
+                    <span>55</span>
+                </div>
+                <div id="hide" class="first one">
+                    <img src="" id="hide" style="width:15%">
+                    <span>56</span>
+                </div>
+
+                <div id="hide" class="first one">
+                    <img src="" id="hide" style="width:15%">
+                    <span>57</span>
+                </div>
+                <div id="hide" class="first one">
+                    <img src="" id="hide" style="width:15%">
+                    <span>58</span>
+                </div>
+                <div id="hide" class="first one">
+                    <img src="" id="hide" style="width:15%">
+                    <span>59</span>
+                </div>
+                <div id="hide" class="first one">
+                    <img src="" id="hide" style="width:15%">
+                    <span>60</span>
+                </div>
+                <div id="hide" class="first one">
+                    <img src="" id="hide" style="width:15%">
+                    <span>61</span>
+                </div>
+                <div id="hide" class="first one">
+                    <img src="" id="hide" style="width:15%">
+                    <span>62</span>
+                </div>
+                <div id="hide" class="first one">
+                    <img src="" id="hide" style="width:15%">
+                    <span>63</span>
+                </div>
+                <div id="hide" class="first one">
+                    <img src="" id="hide" style="width:15%">
+                    <span>64</span>
+                </div>
+                <div id="hide" class="first one">
+                    <img src="" id="hide" style="width:15%">
+                    <span>65</span>
+                </div>
+                <div id="hide" class="first one">
+                    <img src="" id="hide" style="width:15%">
+                    <span>66</span>
+                </div>
+                <div id="hide" class="first one">
+                    <img src="" id="hide" style="width:15%">
+                    <span>67</span>
+                </div>
+                <div id="hide" class="first one">
+                    <img src="" id="hide" style="width:15%">
+                    <span>68</span>
+                </div>
+                <div id="hide" class="first one">
+                    <img src="" id="hide" style="width:15%">
+                    <span>69</span>
+                </div>
+                <div id="hide" class="first one">
+                    <img src="" id="hide" style="width:15%">
+                    <span>70</span>
+                </div>
+                <div id="hide" class="first one">
+                    <img src="" id="hide" style="width:15%">
+                    <span>71</span>
+                </div>
+                <div id="hide" class="first one">
+                    <img src="" id="hide" style="width:15%">
+                    <span>72</span>
+                </div>
+                <div id="hide" class="first one">
+                    <img src="" id="hide" style="width:15%">
+                    <span>73</span>
+                </div>
+
+                <div id="hide" class="first one">
+                    <img src="" id="hide" style="width:15%">
+                    <span>74</span>
+                </div>
+                <div id="hide" class="first one">
+                    <img src="" id="hide" style="width:15%">
+                    <span>75</span>
+                </div>
+                <div id="hide" class="first one">
+                    <img src="" id="hide" style="width:15%">
+                    <span>76</span>
+                </div>
+                <div id="hide" class="first one">
+                    <img src="" id="hide" style="width:15%">
+                    <span>77</span>
+                </div>
+                <div id="hide" class="first one">
+                    <img src="" id="hide" style="width:15%">
+                    <span>78</span>
+                </div>
+                <div id="hide" class="first one">
+                    <img src="" id="hide" style="width:15%">
+                    <span>79</span>
+                </div>
+                <div id="hide" class="first one">
+                    <img src="" id="hide" style="width:15%">
+                    <span>80</span>
+                </div>
+                <div id="hide" class="first one">
+                    <img src="" id="hide" style="width:15%">
+                    <span>81</span>
+                </div>
+                <div id="hide" class="first one">
+                    <img src="" id="hide" style="width:15%">
+                    <span>82</span>
+                </div>
+                <div id="hide" class="first one">
+                    <img src="" id="hide" style="width:15%">
+                    <span>83</span>
+                </div>
+                <div id="hide" class="first one">
+                    <img src="" id="hide" style="width:15%">
+                    <span>84</span>
+                </div>
+                <div id="hide" class="first one">
+                    <img src="" id="hide" style="width:15%">
+                    <span>85</span>
+                </div>
+                <div id="hide" class="first one">
+                    <img src="" id="hide" style="width:15%">
+                    <span>86</span>
+                </div>
+
+                <div id="hide" class="first one">
+                    <img src="" id="hide" style="width:15%">
+                    <span>87</span>
+                </div>
+                <div id="hide" class="first one">
+                    <img src="" id="hide" style="width:15%">
+                    <span>88</span>
+                </div>
+                <div id="hide" class="first one">
+                    <img src="" id="hide" style="width:15%">
+                    <span>89</span>
+                </div>
+                <div id="hide" class="first one">
+                    <img src="" id="hide" style="width:15%">
+                    <span>90</span>
+                </div>
+
+                <div id="hide" class="first one">
+                    <img src="" id="hide" style="width:15%">
+                    <span>91</span>
+                </div>
+                <div id="hide" class="first one">
+                    <img src="" id="hide" style="width:15%">
+                    <span>92</span>
+                </div>
+                <div id="hide" class="first one">
+                    <img src="" id="hide" style="width:15%">
+                    <span>93</span>
+                </div>
+                <div id="hide" class="first one">
+                    <img src="" id="hide" style="width:15%">
+                    <span>94</span>
+                </div>
+                <div id="hide" class="first one">
+                    <img src="" id="hide" style="width:15%">
+                    <span>95</span>
+                </div>
+                <div id="hide" class="first one">
+                    <img src="" id="hide" style="width:15%">
+                    <span>96</span>
+                </div>
+                <div id="hide" class="first one">
+                    <img src="" id="hide" style="width:15%">
+                    <span>97</span>
+                </div>
+                <div id="hide" class="first one">
+                    <img src="" id="hide" style="width:15%">
+                    <span>98</span>
+                </div>
+
+                <div id="hide" class="first one">
+                    <img src="" id="hide" style="width:15%">
+                    <span>99</span>
+                </div>
+
+
+            </div>
+            <!-- btn more-->
+            <div class="btns-yellow">
+                <div id="btn-dream">
+                    Skatīt vairāk
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Sparkle team -->
+        <div class="Sparkle-team">
+            <div class="Sparkle-texts">
+                <div id="Sparkle-heart-team">
+                    <p>SPARKLE HEART KOMANDA</p>
+                </div>
+                <div id="Sparkle-team-description">
+                    <p>Radošā komanda, kura strādā ar projektu 99 un starptautiskām Sparkle Heart īsfilmām.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <!-- images -->
+                <section class="image-container">
+                    <img class="overlay-shadow" src="/images/Rectangle 38.png">
+                    <div class="paragraph-container">
+                        <h3 class="paragraph-text">
+                            Juris Gogulis<br>
+                            Idejas ģenerators un režisors
+                        </h3>
+                    </div>
+                </section>
+                <!-- second image -->
+                <section class="image-container-two">
+                    <img class="overlay-shadow" src="/images/Rectangle 38.png">
+                    <div class="paragraph-container">
+                        <h3 class="paragraph-text">
+                            Ģirts Ceriņš <br>
+                            Operators un montāžas speciālists
+                        </h3>
+                    </div>
+                </section>
+                <section class="image-container-three">
+                    <img class="overlay-shadow" src="/images/Rectangle 38.png">
+                    <div class="paragraph-container">
+                        <h3 class="paragraph-text">
+                            Jānis Zurģis<br>
+                            Animācijas un grafiskā dizaina meistars
+                        </h3>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <!-- black background -->
+        <div class="dark-footer">
+            <div class="column-1">
+                <img src="/images/GoldenV2Logo 3.svg" id="gold-logo">
+            </div>
+            <span id="rights">
+                <!-- year refresh -->
+                &copy; SparkleHeart
+                <script>document.getElementById('rights').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+                <br>Visas tiesības aizsargātas.
+            </span>
+
+            <div class="menu-list">
+                <a href="/idea.html">
+                    <div id="text1" style="cursor: pointer;">Ideja</div>
+                </a>
+                <a href="/dream.html">
+                    <div id="text2" style="cursor: pointer;">Piesaki Sapni</div>
+                </a>
+                <a href="/uzņēmējiem.html">
+                    <div id="text3" style="cursor: pointer;">Uzņēmējiem</div>
+                </a>
+                <a href="/dreambank.html">
+                    <div id="text4" style="cursor: pointer;">Sapņu banka</div>
+                </a>
+                <a href="/sponsors.html">
+                    <div id="text5" style="cursor: pointer;">Sapņus atbalsta</div>
+                </a>
+                <a href="/storys.html">
+                    <div id="text6" style="cursor: pointer;">Iedvesmas stāsti</div>
+                </a>
+            </div>
+            <div class="menu">
+                <div id="sparkle">Biedrība SparkleHeart</div>
+                <div id="registration">Reģistrācijas nr. 40008293119</div>
+                <div id="bank">Banka: SWEDBANK A/S</div>
+                <div id="number">LV52HABA0551047652465</div>
+            </div>
+            <div class="person">
+                <div id="person-name">Juris Gogulis</div>
+                <a href="mailto:vinoth@email.com">
+                    <div id="person-email">juris.gogulis@sparkleheart.org</div>
+                </a>
+                <a href="tel:+37126890034">
+                    <div id="mobile-number">+37126890034</div>
+                </a>
+                <div id="adress">Biķernieku iela 24a - 5, LV-1006</div>
+                <div id="req">Skatīt rekvizītus</div>
+            </div>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/sparkleheartLV">
+                    <div id="facebook" style="cursor: pointer;"></div>
+                </a>
+                <a href="https://www.instagram.com/sparkleheart_org/">
+                    <div id="instagram" style="cursor: pointer;"></div>
+                </a>
+                <div class="privacy">
+                    <div id="privacy">Privātuma politika</div>
+                </div>
+            </div>
+        </div>
+        <!-- scroll btn -->
+        <!-- <button onclick="topFunction()" id="scroll-button" title="Scroll up">Uz sākumu</button> -->
+        <!-- container end -->
+    </div>
+    <!-- script -->
+    <script type="text/javascript">
+
+        //anchor scroll button
+        var mybutton = document.getElementById("scroll-button");
+
+        window.onscroll = function () {
+            scrollFunction();
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+        //VIDEO modal
+        $(document).ready(function () {
+            $('#myModal').on('show.bs.modal', function (event) {
+                var button = $(event.relatedTarget);
+                var imgposter = button.find("img").attr("src");
+                var vidsrc = button.find("img").attr("data-src");
+
+                //$(this).find('video#recap').attr('poster', imgposter);
+                $(this).find('video#recap source').attr('src', '');
+                $(this).find('video#recap source').attr('src', vidsrc);
+
+                $(this).find('video#recap')[0].load();
+            }).on('hidden.bs.modal', function () {
+                $(this).find('video')[0].pause();
+            });
+        });
+        //PLAY button
+        var video = document.getElementById("recap");
+        var btn = document.getElementById("myButton");
+        function myFunction() {
+            if (video.paused) {
+                video.play();
+                btn.style.opacity = "0.2";
+            } else {
+                video.pause();
+                btn.style.opacity = "1";
+            }
+        }
+        //hide and show names
+        $(document).ready(function () {
+            $("#1").click(function () {
+                $("#person1").show();
+                $(".close").click(function () {
+                    $("#person1").hide();
+                });
+            });
+        });
+        $(document).ready(function () {
+            $("#2").click(function () {
+                $("#person2").show();
+                $(".close").click(function () {
+                    $("#person2").hide();
+                });
+            });
+        });
+        $(document).ready(function () {
+            $("#3").click(function () {
+                $("#person3").show();
+                $(".close").click(function () {
+                    $("#person3").hide();
+                });
+            });
+        });
+        $(document).ready(function () {
+            $("#4").click(function () {
+                $("#person4").show();
+                $(".close").click(function () {
+                    $("#person4").hide();
+                });
+            });
+        });
+        $(document).ready(function () {
+            $("#5").click(function () {
+                $("#person5").show();
+                $(".close").click(function () {
+                    $("#person5").hide();
+                });
+            });
+        });
+
+        $(document).ready(function () {
+            $("#6").click(function () {
+                $("#person6").show();
+                $(".close").click(function () {
+                    $("#person6").hide();
+                });
+            });
+        });
+
+        $(document).ready(function () {
+            $("#7").click(function () {
+                $("#person7").show();
+                $(".close").click(function () {
+                    $("#person7").hide();
+                });
+            });
+        });
+        $(document).ready(function () {
+            $("#8").click(function () {
+                $("#person8").show();
+                $(".close").click(function () {
+                    $("#person8").hide();
+                });
+            });
+        });
+        $(document).ready(function () {
+            $("#9").click(function () {
+                $("#person9").show();
+                $(".close").click(function () {
+                    $("#person9").hide();
+                });
+            });
+        });
+        $(document).ready(function () {
+            $("#10").click(function () {
+                $("#person10").show();
+                $(".close").click(function () {
+                    $("#person10").hide();
+                });
+            });
+        });
+        $(document).ready(function () {
+            $("#11").click(function () {
+                $("#person11").show();
+                $(".close").click(function () {
+                    $("#person11").hide();
+                });
+            });
+        });
+        $(document).ready(function () {
+            $("#12").click(function () {
+                $("#person12").show();
+                $(".close").click(function () {
+                    $("#person12").hide();
+                });
+            });
+        }); $(document).ready(function () {
+            $("#13").click(function () {
+                $("#person13").show();
+                $(".close").click(function () {
+                    $("#person13").hide();
+                });
+            });
+        });
+        $(document).ready(function () {
+            $("#14").click(function () {
+                $("#person14").show();
+                $(".close").click(function () {
+                    $("#person14").hide();
+                });
+            });
+        });
+        $(document).ready(function () {
+            $("#15").click(function () {
+                $("#person15").show();
+                $(".close").click(function () {
+                    $("#person15").hide();
+                });
+            });
+        });
+        $(document).ready(function () {
+            $("#16").click(function () {
+                $("#person16").show();
+                $(".close").click(function () {
+                    $("#person16").hide();
+                });
+            });
+        });
+        $(document).ready(function () {
+            $("#17").click(function () {
+                $("#person17").show();
+                $(".close").click(function () {
+                    $("#person17").hide();
+                });
+            });
+        });
+        //hide and show yellow items
+        $(document).ready(function () {
+            $("#btn-dream").click(function () {
+                $(".one").show();
+                $("#btn-dream").click(function () {
+                    $("#hide").hide();
+                });
+            });
+        });
+
+    </script>
+
+</body>
+
+</html>
